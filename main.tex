@@ -1,0 +1,367 @@
+%% To submit your paper:
+\documentclass[draft]{agujournal2019}
+\usepackage{url} %this package should fix any errors with URLs in refs.
+\usepackage{lineno}
+\usepackage[inline]{trackchanges} %for better track changes. finalnew option will compile document with changes incorporated.
+\usepackage{soul}
+\linenumbers
+%%%%%%%
+% As of 2018 we recommend use of the TrackChanges package to mark revisions.
+% The trackchanges package adds five new LaTeX commands:
+%
+%  \note[editor]{The note}
+%  \annote[editor]{Text to annotate}{The note}
+%  \add[editor]{Text to add}
+%  \remove[editor]{Text to remove}
+%  \change[editor]{Text to remove}{Text to add}
+%
+% complete documentation is here: http://trackchanges.sourceforge.net/
+%%%%%%%
+
+\draftfalse
+
+%% Enter journal name below.
+%% Choose from this list of Journals:
+%
+% JGR: Atmospheres
+% JGR: Biogeosciences
+% JGR: Earth Surface
+% JGR: Oceans
+% JGR: Planets
+% JGR: Solid Earth
+% JGR: Space Physics
+% Global Biogeochemical Cycles
+% Geophysical Research Letters
+% Paleoceanography and Paleoclimatology
+% Radio Science
+% Reviews of Geophysics
+% Tectonics
+% Space Weather
+% Water Resources Research
+% Geochemistry, Geophysics, Geosystems
+% Journal of Advances in Modeling Earth Systems (JAMES)
+% Earth's Future
+% Earth and Space Science
+% Geohealth
+%
+% ie, \journalname{Water Resources Research}
+
+\journalname{JGR: Space Physics}
+
+
+\begin{document}
+
+
+\title{SWERVE Hub for GIC data}
+
+
+\authors{L. A. Wilkerson\affil{1}, R. S. Weigel\affil{1}}
+
+
+\affiliation{1}{George Mason University}
+%(repeat as many times as is necessary)
+
+
+
+\correspondingauthor{L. A. Wilkerson}{lwilker@gmu.edu}
+
+
+
+\begin{keypoints}
+\item enter point 1 here
+\item enter point 2 here
+\item enter point 3 here
+\end{keypoints}
+
+
+\begin{abstract}
+[ enter your Abstract here ]
+% make point about data quality being poor
+\end{abstract}
+
+\section*{Plain Language Summary}
+[ enter your pain language summary here ]
+
+
+
+\section{Introduction}
+
+Geomagnetic disturbances (GMDs) cause many natural space weather hazards, including geomagnetically induced currents (GICs), a result of electric currents in Earth’s ionosphere and magnetosphere during GMD events (\citeA{Winter2019}; \citeA{Gopalswamy2022}). Solar activity, such as coronal mass ejections, often drives enhancements in ionospheric and magnetospheric currents. These enhancements result in geoelectric field variations on Earth's surface, which in turn cause GICs. GICs, like the geoelectric field, vary in amplitude depending on factors such as geomagnetic latitude and ground conductivity \cite{Wawrzaszek2024}. While stronger GICs are usually found at high latitudes, significant GICs have been observed at middle and low latitudes (\citeA{Liu2018}; \citeA{Caraballo2023}). As such, GICs and their impacts are of interest at all latitudes.
+
+GICs can impact essential infrastructure reliant on long systems of electrical conductors, such as pipelines (\citeA{Khanal2019}; \citeA{Ingham2025}), submarine cables (\citeA{Meloni1983}; \citeA{Chakraborty2022}; \citeA{Boteler2024}), railway signaling and switching systems (\citeA{Love2019}; \citeA{Boteler2020}; \citeA{Patterson2024}), and electrical power transmission networks (\citeA{Kappenman1996}; \citeA{MacManus2025}). 
+The impact of GICs on power grids has been of particular interest since the 1989 Hydro-Québec blackout \cite{Bolduc2002}, in addition to GIC-related transformer failures in New Zealand in November 2001 \cite{Marshall2012} and South Africa in October 2003 \cite{Gaunt2007}.
+These power grid failure events, of which the latter two occurred at middle latitudes, have motivated GIC research globally, with studies in
+Canada \cite{Cordell2024}, the US \cite{}, Mexico \cite{Caraballo2023}, Brazil \cite{Espinosa2023}, Uruguay \cite{Caraballo2013},  Ethiopia \cite{Liu2018}, South Africa \cite{Ngwira2011}, Ireland and the UK \cite{}, Spain \cite{Torta2023}, Portugal \cite{AlvesRibeiro2023}, Italy \cite{Pignatiello2026}, Sweden \cite{Rosenqvist2025}, Norway, Finland, Turkey, India, New Zealand \cite{MacManus2025}, Australia \cite{}, Japan \cite{Watari2025}, China, and elsewhere \cite{Kelbert2019}. Furthermore, recent economic models show that power grid failures due to GICs can negatively impact a nation's GDP on both micro and macro scales (\citeA{Oughton2017}; \citeA{Oughton2018}; \citeA{Oughton2025}). 
+
+While GIC monitor data are essential for better understanding and predicting the impacts of GICs on power grids, these data are not always openly available due to grid security concerns and most diagnostic data being owned by network operators \cite{Hapgood2016}. Furthermore, open GIC data have not always been cleaned or processed to ensure they are of a usable quality.
+For example, in \citeA{Wilkerson2026}, we found that out of 396 GIC monitors with data openly available through the North American Electric Reliability Corporation (NERC), 355 had poor data quality for the May 2024 ``Gannon" storm.
+
+In this paper, we present the Space Weather Event Response Validation \& Evaluation (SWERVE) Hub GMD dataset, which includes GIC monitor and supplemental ground magnetometer and solar wind data during 16 major GMD events since 2000. These data are collected from public data releases and open-source publications globally. Additionally, we present several algorithms for GIC data filtering and site selection that correct for baseline offset and large, nonphysical spikes, identify common issues with GIC data (e.g., data gaps, low signal), and flag GIC monitor sites with these issues for exclusion from analysis. 
+
+\section{Data}
+
+\subsection{Data Sources}
+%NERC, idk if we can include TVA? Talk about mandatory NERC reporting and add details of NERC ERO portal.
+
+NERC is an international regulatory body for the United States, Canada, and Mexico whose stated purpose is ``to assure the effective and efficient reduction of risks to the reliability and security of the grid" \cite{NERC2026_mission}.
+NERC, under its transmission planning standards, has published requirements for GMD response, which are dynamic and evolve along with understanding of GMD impacts on electrical power networks (\citeA{NERC2020}; \citeA{NERC2024}).
+The Federal Energy Regulatory Commission (FERC) Order No. 830 mandates NERC to collect GIC monitor and magnetometer data and to make such data publicly available in order to support research and analysis of GMD risk \cite{FERC2016}. As such, the NERC Electric Reliability Organization (ERO; \citeA{NERC2026_ERO}) data portal contains reported GIC monitor and ground magnetometer data from various power grid operators across North America for all GMDs with Kp $\geq7$ since May 2013 \cite{NERC2026_reporting}.
+
+Other GIC data was compiled from open-source publications. These data span GIC measurement sites across the globe for a variety of GMD events and provide varying degrees of information during the given GMD. [INCLUDE TABLE W ALL CITATIONS IN APPENDIX]
+
+
+\subsection{Data Content}
+The data collected from NERC includes GIC monitor and ground magnetometer data at NERC sites for 14 storms over North America. The selected storms include all storms since 2020 through June 2025 listed on NERC ERO portal with reported Kp $\geq8$. These storms were selected both for their intensity and recency (earlier listed storms had considerably less sites available). %am currently adding more NERC storms, so this statement is not exactly true
+GMD data from both GIC monitors and ground magnetometers is reported to NERC annually by June 30 \cite{NERC2026_reporting}; as such, released datasets from GMDs within the past year may not be complete and are not included in this paper.
+Each GIC site has a known geographic latitude, geographic longitude, installation type, and connection. For consistency, sites with connections listed as ``neutral of single-phase transformer" had all GIC values multiplied by a factor of three to match the scaling of the rest of the monitors, which were either listed as ``Common neutral of a 3-phase transformer" or ``Common neutral of three (3) single-phase transformers".
+Similarly, each magnetometer site has a known geographic latitude, geographic longitude, and orientation (either geographic or geomagnetic).
+
+The data collected from open-source publications varies in structure and information about the monitor included in the metadata. 
+
+Include table of storm, \#GIC, \#Mag, maybe some solar wind data to indicate intensity?
+
+\subsection{Data Samples}
+Show sample GIC data, stack plots, etc. and discuss
+
+\subsection{Metadata}
+Describe metadata tables
+
+\section{GIC Timeseries Cleaning and Selection}
+
+
+% section on cleaning?? offset, spike removal etc.
+
+\subsection{Selection Criteria}
+
+To ensure GIC data quality, we developed an algorithm to determine potential problems with the GIC data.
+For each GMD event, a period of heightened GIC activity, called the ``storm time", is defined. 
+Our selection algorithm looks at data from each GIC monitor site available during the storm selectively within given ``storm time" range because some monitors only collect high quality data during periods of high activity. 
+
+First, two correction filters are applied to clean the raw GIC data. The first filter detects large, nonphysical spikes and removes them and surrounding points. There are [X] spike filter options that can be chosen by the user.
+The first method of spike detection and removal is a difference filter, which defines a spike as having a sudden, sharp peak that is large compared to the local standard deviation. For each GIC timeseries, the difference between each point was used as a proxy for the first derivative, and the difference between each difference, shifted by one, was used as a proxy for the second derivative. The windows used to compute the local difference, second difference, and standard deviation can be set externally, as can the thresholds used for spike detection. If at a given point the difference and second difference are above their set thresholds while the standard deviation is below its threshold, then the point is marked as a spike.
+
+The second correction filter corrects for GIC timeseries with a baseline offset. If the mean GIC value is greater than an externally set offset threshold, the mean value is subtracted from the full timeseries.
+
+Once the correction filters have been applied, the selection algorithm checks to see if all  the GIC values positive or negative at the given site, as GIC values should fluctuate around a baseline of 0~A. All other selection criteria presented in this section can have their thresholds changed externally, and each option can be turned off if desired.
+
+All values within $\pm4$~A 
+
+Noise removal by comparing standard deviation of the data pre-storm to the standard deviation during storm
+
+Remove sites with large gaps in data during storm time
+
+Remove sites with a cadence less than 1~min during storm time
+
+Remove sites with constant values during storm time for a selected period
+
+\subsection{Testing and Validation}
+
+To test the correction filters, three test timeseries were developed. The first was a random walk centered on zero with inserted spikes every 3~hr, alternating between positive and negative and increasing in magnitude. The second was a sine wave with an offset baseline. The third was a combination, a random walk with spikes inserted as before and with an offset.
+To test the selection algorithm, six test timeseries were created, each related to a specific selection criterion.
+
+Describe test timeseries used to check filter (e.g. all positive, obvious spikes, etc.)
+
+Outputs of diagnostic plots, visual/manual validation
+
+\section{Summary}
+The SWERVE Hub contains both raw and filtered GIC data from global sources, openly accessible.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% DATA SECTION and ACKNOWLEDGMENTS
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Open Research Section}
+This section MUST contain a statement that describes where the data supporting the conclusions can be obtained. Data cannot be listed as ''Available from authors'' or stored solely in supporting information. Citations to archived data should be included in your reference list. Wiley will publish it as a separate section on the paper’s page. Examples and complete information are here:
+https://www.agu.org/Publish with AGU/Publish/Author Resources/Data for Authors
+
+
+\section*{Conflict of Interest declaration}
+The authors declare there are no conflicts of interest for this manuscript.
+
+
+\acknowledgments
+Enter acknowledgments here. This section is to acknowledge funding, thank colleagues, enter any secondary affiliations, and so on.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% REFERENCES and BIBLIOGRAPHY
+%
+% \bibliography{<name of your .bib file>} don't specify the file extension
+% don't specify bibliographystyle
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\bibliography{ enter your bibtex bibliography filename here }
+
+
+
+%Reference citation instructions and examples:
+%
+% Please use ONLY \cite and \citeA for reference citations.
+% \cite for parenthetical references
+% ...as shown in recent studies (Simpson et al., 2019)
+% \citeA for in-text citations
+% ...Simpson et al. (2019) have shown...
+%
+%
+%...as shown by \citeA{jskilby}.
+%...as shown by \citeA{lewin76}, \citeA{carson86}, \citeA{bartoldy02}, and \citeA{rinaldi03}.
+%...has been shown \cite{jskilbye}.
+%...has been shown \cite{lewin76,carson86,bartoldy02,rinaldi03}.
+%... \cite <i.e.>[]{lewin76,carson86,bartoldy02,rinaldi03}.
+%...has been shown by \cite <e.g.,>[and others]{lewin76}.
+%
+% apacite uses < > for prenotes and [ ] for postnotes
+% DO NOT use other cite commands (e.g., \citet, \citep, \citeyear, \nocite, \citealp, etc.).
+%
+
+\bibliography{main}
+
+\end{document}
+
+
+
+More Information and Advice:
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%  SECTION HEADS
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Capitalize the first letter of each word (except for
+% prepositions, conjunctions, and articles that are
+% three or fewer letters).
+
+% AGU follows standard outline style; therefore, there cannot be a section 1 without
+% a section 2, or a section 2.3.1 without a section 2.3.2.
+% Please make sure your section numbers are balanced.
+% ---------------
+% Level 1 head
+%
+% Use the \section{} command to identify level 1 heads;
+% type the appropriate head wording between the curly
+% brackets, as shown below.
+%
+%An example:
+%\section{Level 1 Head: Introduction}
+%
+% ---------------
+% Level 2 head
+%
+% Use the \subsection{} command to identify level 2 heads.
+%An example:
+%\subsection{Level 2 Head}
+%
+% ---------------
+% Level 3 head
+%
+% Use the \subsubsection{} command to identify level 3 heads
+%An example:
+%\subsubsection{Level 3 Head}
+%
+%---------------
+% Level 4 head
+%
+% Use the \subsubsubsection{} command to identify level 3 heads
+% An example:
+%\subsubsubsection{Level 4 Head} An example.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%  IN-TEXT LISTS
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Do not use bulleted lists; enumerated lists are okay.
+% \begin{enumerate}
+% \item
+% \item
+% \item
+% \end{enumerate}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%  EQUATIONS
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Single-line equations are centered.
+% Equation arrays will appear left-aligned.
+
+Math coded inside display math mode \[ ...\]
+ will not be numbered, e.g.,:
+ \[ x^2=y^2 + z^2\]
+
+ Math coded inside \begin{equation} and \end{equation} will
+ be automatically numbered, e.g.,:
+ \begin{equation}
+ x^2=y^2 + z^2
+ \end{equation}
+
+
+% To create multiline equations, use the
+% \begin{eqnarray} and \end{eqnarray} environment
+% as demonstrated below.
+\begin{eqnarray}
+  x_{1} & = & (x - x_{0}) \cos \Theta \nonumber \\
+        && + (y - y_{0}) \sin \Theta  \nonumber \\
+  y_{1} & = & -(x - x_{0}) \sin \Theta \nonumber \\
+        && + (y - y_{0}) \cos \Theta.
+\end{eqnarray}
+
+%If you don't want an equation number, use the star form:
+%\begin{eqnarray*}...\end{eqnarray*}
+
+% Break each line at a sign of operation
+% (+, -, etc.) if possible, with the sign of operation
+% on the new line.
+
+% Indent second and subsequent lines to align with
+% the first character following the equal sign on the
+% first line.
+
+% Use an \hspace{} command to insert horizontal space
+% into your equation if necessary. Place an appropriate
+% unit of measure between the curly braces, e.g.
+% \hspace{1in}; you may have to experiment to achieve
+% the correct amount of space.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%  EQUATION NUMBERING: COUNTER
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% You may change equation numbering by resetting
+% the equation counter or by explicitly numbering
+% an equation.
+
+% To explicitly number an equation, type \eqnum{}
+% (with the desired number between the brackets)
+% after the \begin{equation} or \begin{eqnarray}
+% command.  The \eqnum{} command will affect only
+% the equation it appears with; LaTeX will number
+% any equations appearing later in the manuscript
+% according to the equation counter.
+%
+
+% If you have a multiline equation that needs only
+% one equation number, use a \nonumber command in
+% front of the double backslashes (\\) as shown in
+% the multiline equation above.
+
+% If you are using line numbers, remember to surround
+% equations with \begin{linenomath*}...\end{linenomath*}
+
+%  To add line numbers to lines in equations:
+%  \begin{linenomath*}
+%  \begin{equation}
+%  \end{equation}
+%  \end{linenomath*}
+
+
+
