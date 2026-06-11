@@ -91,12 +91,12 @@ Geomagnetic disturbances (GMDs) cause many natural space weather hazards, includ
 GICs can impact essential infrastructure reliant on long systems of electrical conductors, such as pipelines (\citeA{Khanal2019}; \citeA{Ingham2025}), submarine cables (\citeA{Meloni1983}; \citeA{Chakraborty2022}; \citeA{Boteler2024}), railway signaling and switching systems (\citeA{Love2019}; \citeA{Boteler2020}; \citeA{Patterson2024}), and electrical power transmission networks (\citeA{Kappenman1996}; \citeA{MacManus2025}). 
 The impact of GICs on power grids has been of particular interest since the 1989 Hydro-Québec blackout \cite{Bolduc2002}, in addition to GIC-related transformer failures in New Zealand in November 2001 \cite{Marshall2012} and South Africa in October 2003 \cite{Gaunt2007}.
 These power grid failure events, of which the latter two occurred at middle latitudes, have motivated GIC research globally, with studies in
-Canada \cite{Cordell2024}, the US \cite{}, Mexico \cite{Caraballo2023}, Brazil \cite{Espinosa2023}, Uruguay \cite{Caraballo2013},  Ethiopia \cite{Liu2018}, South Africa \cite{Ngwira2011}, Ireland and the UK \cite{}, Spain \cite{Torta2023}, Portugal \cite{AlvesRibeiro2023}, Italy \cite{Pignatiello2026}, Sweden \cite{Rosenqvist2025}, Norway, Finland, Turkey, India, New Zealand \cite{MacManus2025}, Australia \cite{}, Japan \cite{Watari2025}, China, and elsewhere \cite{Kelbert2019}. Furthermore, recent economic models show that power grid failures due to GICs can negatively impact a nation's GDP on both micro and macro scales (\citeA{Oughton2017}; \citeA{Oughton2018}; \citeA{Oughton2025}). 
+Canada \cite{Cordell2024}, the US \cite{Wilkerson2026}, Mexico \cite{Caraballo2023}, Brazil \cite{Espinosa2023}, Uruguay \cite{Caraballo2013},  Ethiopia \cite{Liu2018}, South Africa \cite{Ngwira2011}, Ireland and the UK \cite{}, Spain \cite{Torta2023}, Portugal \cite{AlvesRibeiro2023}, Italy \cite{Pignatiello2026}, Sweden \cite{Rosenqvist2025}, Norway, Finland, Turkey, India, New Zealand \cite{MacManus2025}, Australia \cite{}, Japan \cite{Watari2025}, China, and elsewhere \cite{Kelbert2019}. Furthermore, recent economic models show that power grid failures due to GICs can negatively impact a nation's GDP on both micro and macro scales (\citeA{Oughton2017}; \citeA{Oughton2018}; \citeA{Oughton2025}). 
 
 While GIC monitor data are essential for better understanding and predicting the impacts of GICs on power grids, these data are not always openly available due to grid security concerns and most diagnostic data being owned by network operators \cite{Hapgood2016}. Furthermore, open GIC data have not always been cleaned or processed to ensure they are of a usable quality.
-For example, in \citeA{Wilkerson2026}, we found that out of 396 GIC monitors with data openly available through the North American Electric Reliability Corporation (NERC), 355 had poor data quality for the May 2024 ``Gannon" storm.
+For example,  \citeA{Wilkerson2026} found that out of 396 GIC monitors with data openly available through the North American Electric Reliability Corporation (NERC), 355 had poor data quality for the May 2024 ``Gannon" storm.
 
-In this paper, we present the Space Weather Event Response Validation \& Evaluation (SWERVE) Hub GMD dataset, which includes GIC monitor and supplemental ground magnetometer and solar wind data during 16 major GMD events since 2000. These data are collected from public data releases and open-source publications globally. Additionally, we present several algorithms for GIC data filtering and site selection that correct for baseline offset and large, nonphysical spikes, identify common issues with GIC data (e.g., data gaps, low signal), and flag GIC monitor sites with these issues for exclusion from analysis. 
+In this paper, we present the Space Weather Event Response Validation \& Evaluation (SWERVE) Hub GMD dataset, which includes GIC monitor and supplemental ground magnetometer and solar wind data during 16 major GMD events since 2000. These data are collected from public data releases and open-source publications globally. Additionally, we present several algorithms for GIC data correction and site selection that correct for baseline offset and large, nonphysical spikes, identify common issues with GIC data (e.g., data gaps, low signal), and flag GIC monitor sites with these issues for exclusion from analysis. 
 
 \section{Data}
 
@@ -140,7 +140,7 @@ Our selection algorithm looks at data from each GIC monitor site available durin
 First, two correction filters are applied to clean the raw GIC data. The first filter detects large, nonphysical spikes and removes them and surrounding points. There are [X] spike filter options that can be chosen by the user.
 The first method of spike detection and removal is a difference filter, which defines a spike as having a sudden, sharp peak that is large compared to the local standard deviation. For each GIC timeseries, the difference between each point was used as a proxy for the first derivative, and the difference between each difference, shifted by one, was used as a proxy for the second derivative. The windows used to compute the local difference, second difference, and standard deviation can be set externally, as can the thresholds used for spike detection. If at a given point the difference and second difference are above their set thresholds while the standard deviation is below its threshold, then the point is marked as a spike.
 
-The second correction filter corrects for GIC timeseries with a baseline offset. If the mean GIC value is greater than an externally set offset threshold, the mean value is subtracted from the full timeseries.
+The second correction filter corrects for GIC timeseries with a baseline offset. If the magnitude of the mean GIC value over the entire dataset is greater than an externally set offset threshold, the mean value is subtracted from the full timeseries.
 
 Once the correction filters have been applied, the selection algorithm checks to see if all  the GIC values positive or negative at the given site, as GIC values should fluctuate around a baseline of 0~A. All other selection criteria presented in this section can have their thresholds changed externally, and each option can be turned off if desired.
 
@@ -150,13 +150,14 @@ Noise removal by comparing standard deviation of the data pre-storm to the stand
 
 Remove sites with large gaps in data during storm time
 
-Remove sites with a cadence less than 1~min during storm time
+Remove sites with a cadence greater than 1~min during storm time
 
 Remove sites with constant values during storm time for a selected period
 
 \subsection{Testing and Validation}
 
 To test the correction filters, three test timeseries were developed. The first was a random walk centered on zero with inserted spikes every 3~hr, alternating between positive and negative and increasing in magnitude. The second was a sine wave with an offset baseline. The third was a combination, a random walk with spikes inserted as before and with an offset.
+
 To test the selection algorithm, six test timeseries were created, each related to a specific selection criterion.
 
 Describe test timeseries used to check filter (e.g. all positive, obvious spikes, etc.)
@@ -164,7 +165,8 @@ Describe test timeseries used to check filter (e.g. all positive, obvious spikes
 Outputs of diagnostic plots, visual/manual validation
 
 \section{Summary}
-The SWERVE Hub contains both raw and filtered GIC data from global sources, openly accessible.
+The SWERVE Hub contains both raw and filtered GIC data from global sources, openly accessible. 
+Additionally, code for processing, correcting, and selecting GIC site data is included to address common issues with GIC datasets.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
