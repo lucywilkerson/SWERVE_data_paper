@@ -15,3 +15,4 @@
 | 2024-05-10 | MEX | GIC | [OSF](https://osf.io/av9ht/overview) | Caraballo 2024 | [Geophysical Research Letters](https://doi.org/10.1029/2024GL112749) |
 | 2018 - 2021 | GBR | DMM GIC | [National Geoscience Data Centre](https://www.bgs.ac.uk/services/ngdc/) | NGDC | [Space Weather](https://doi.org/10.1029/2023SW003769) |
 | 2020 - 2021 | ESP | DMM GIC | [DigitalCSIC](https://doi.org/10.20350/digitalCSIC/14004) | Marsal et al 2021 | [Space Weather](https://doi.org/10.1029/2021SW002905) |
+| 2015-12-14, 2016-03-06, 2015-03-17 | CHN | GIC | [Zenodo](https://doi.org/10.5281/zenodo.3714269) | Zhang 2020 | [Space Weather](https://doi.org/10.1029/2020SW002549) |
