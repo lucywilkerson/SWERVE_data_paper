@@ -13,4 +13,5 @@
 | 2003-10-31 | RSA | GIC | [SANSA](ftp://ftp.spacesci.sansa.org.za/pub/slotz/heyns_lotz_gaunt_202002/) * | Heyns 2020 | [Space Weather](https://doi.org/10.1029/2021SW002729) |
 | 2013-10-08 | central BRA | GIC | [Excel file](https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1029%2F2018SW002094&file=swe20818-sup-0002-2018SW002094-Table_SI-S01.xlsx) | Espinosa et al 2019 | [Space Weather](https://doi.org/10.1029/2018SW002094) |
 | 2024-05-10 | MEX | GIC | [OSF](https://osf.io/av9ht/overview) | Caraballo 2024 | [Geophysical Research Letters](https://doi.org/10.1029/2024GL112749) |
-| 2018 - 2021 | GBR | DMM GIC | [National Geoscience Data Centre](https://www.bgs.ac.uk/services/ngdc/) | NGDC | [GSpace Weather](https://doi.org/10.1029/2023SW003769) |
+| 2018 - 2021 | GBR | DMM GIC | [National Geoscience Data Centre](https://www.bgs.ac.uk/services/ngdc/) | NGDC | [Space Weather](https://doi.org/10.1029/2023SW003769) |
+| 2020 - 2021 | ESP | DMM GIC | [DigitalCSIC](https://doi.org/10.20350/digitalCSIC/14004) | Marsal et al 2021 | [Space Weather](https://doi.org/10.1029/2021SW002905) |
