@@ -52,3 +52,14 @@
 | Caraballo et al 2019 | MEX; 2000-07-15, 2003-10-20, 2015-03-17, 2017-09-07; measured B, calculated GIC; 115 sites | https://doi.org/10.17605/OSF.IO/AV9HT "GIC_assess_v2:SW Journal Article 2020/datasets" (calculated) |
 | Marsal et al 2019 | ESP; 2012-01-22; measured GIC, calculated GIC; 1 site | NA |
 | Dimmock et al 2019 | FIN; 2017-09-07; measured GIC (pipeline), calculated GIC; 1 site | http://space.fmi.fi/gic/man_ascii/man.php (FMI) |
+| Marshall et al 2019 | AUS; 2013-03-17, 2013-10-02, 2015-06-23, 2017-09-08; measured GIC, measured B, calculated GIC; 8 sites | NA |
+| Khanal et al 2019 | FIN; 113 events (list in SI of paper); measured GIC (pipeline), measured B; 1 site | http://space.fmi.fi/gic/?page=gasum_final (FMI), https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1029%2F2018SW001879&file=swe20813-sup-0002-2018SW001879-ds01.zip (datasets used in paper) |
+| Rosenqvist et al 2019 | SWE; 2015-07-05; measured GIC, measured B, calculated GIC; 1 site | NA |
+| Espnosa et al 2019 | BRA; 2013-10-08, 2015-03-17, 2015-06-22; measured GIC (2013 storm only), measured B, calculated GIC; 1 site | https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1029%2F2018SW002094&file=swe20818-sup-0002-2018SW002094-Table_SI-S01.xlsx |
+| Weigel et al 2019 | JPN; 2006 - 20007; measured GIC, measured B, calculated GIC; 1 site | NA (data from Watari shared via email) |
+| Tozzi et al 2018 | ITA; 1999-2015; measured B, calculated GIC index; 2 sites | NA |
+| Nakamura et al 2018 | JPN; 2017-05-27; measured GIC, measured B, calculated GIC; 2 sites | NA |
+| Blake et al 2018 | IRL; 2015-08-26, 2015-09-07, 2015-10-07, 2015-12-20, 2016-03-06; measured GIC, measured B, calculated GIC; 1 site | https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1029%2F2018SW001926&file=swe20785-sup-0002-2018SW001926-Data_Set_SI-S01.txt (2015-08), https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1029%2F2018SW001926&file=swe20785-sup-0003-2018SW001926-Data_Set_SI-S02.txt (2015-09), https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1029%2F2018SW001926&file=swe20785-sup-0004-2018SW001926-Data_Set_SI-S03.txt (2015-10), https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1029%2F2018SW001926&file=swe20785-sup-0005-2018SW001926-Data_Set_SI-S04.txt (2015-12), https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1029%2F2018SW001926&file=swe20785-sup-0006-2018SW001926-Data_Set_SI-S05.txt (2016-03) |
+| Bailey et al 2018 | AUT; 2017-04-23; measured GIC, measured B, calculated GIC; 3 sites | NA (paper has map of AUT system) |
+| Clilverd et al 2018 | NZL; 2017-09-07; measured GIC, measured B, calculated GIC; 1 site | NA |
+| Divett et al 2018 | NZL; 2017?; measured B, calculated GIC; 29 sites | NA |
