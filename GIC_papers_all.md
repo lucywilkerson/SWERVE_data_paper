@@ -62,4 +62,12 @@
 | Blake et al 2018 | IRL; 2015-08-26, 2015-09-07, 2015-10-07, 2015-12-20, 2016-03-06; measured GIC, measured B, calculated GIC; 1 site | https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1029%2F2018SW001926&file=swe20785-sup-0002-2018SW001926-Data_Set_SI-S01.txt (2015-08), https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1029%2F2018SW001926&file=swe20785-sup-0003-2018SW001926-Data_Set_SI-S02.txt (2015-09), https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1029%2F2018SW001926&file=swe20785-sup-0004-2018SW001926-Data_Set_SI-S03.txt (2015-10), https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1029%2F2018SW001926&file=swe20785-sup-0005-2018SW001926-Data_Set_SI-S04.txt (2015-12), https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1029%2F2018SW001926&file=swe20785-sup-0006-2018SW001926-Data_Set_SI-S05.txt (2016-03) |
 | Bailey et al 2018 | AUT; 2017-04-23; measured GIC, measured B, calculated GIC; 3 sites | NA (paper has map of AUT system) |
 | Clilverd et al 2018 | NZL; 2017-09-07; measured GIC, measured B, calculated GIC; 1 site | NA |
-| Divett et al 2018 | NZL; 2017?; measured B, calculated GIC; 29 sites | NA |
+| Divett et al 2018 | NZL; generalized event; measured B, calculated GIC; 29 sites | NA |
+| Mac Manus et al 2017 | NZL; 2001-11-06, 2013-10-02; measured GIC, measured B; 17 sites | NA |
+| Torta et al 2017 | ESP; 2003-10-29, 2015-03-17; measured GIC, measured B, calculated GIC; 1 site | NA |
+| Barbosa et al 2017 | BRA/RSA/GBR/FIN; 90 storms; measured B, calculated GIC; 4 sites | NA |
+| Divett et al 2017 | NZL; generalized event; calculated GIC; 29 sites | NA |
+| Butala et al 2017 | USA; 2013-10-02, 2013-06-01, 2013-10-09; measured GIC, measured B, calculated GIC; 4 sites | https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2F2017SW001602&file=swe20522-sup-0002-supplementary.zip (daily plots only) |
+| Gannon et al 2017 | USA; 1989-03-13, 1991-03-24, 2003-10-28, 2016-04-12, 2016-05-07; measured B; calculated GIC; 13 sites | NA |
+| Rodger et al 2017 | NZL; 2001 - 2015; measured GIC, measured B, calculated GIC; 2 sites | NA |
+| Ingham et al 2017 | NZL; 2015-03-17, 2013-06-01, 2013-06-29, 2013-10-02, 2014-09-12; measured GIC, measured B, calculated GIC; 5 sites | NA |
