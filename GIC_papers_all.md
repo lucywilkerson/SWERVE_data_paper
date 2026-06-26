@@ -77,4 +77,5 @@
 | Boteler et al 2016 | generalized; generalized event; calculated GIC; 1 site | NA |
 | Zhang et al 2016 | CHN; 2012-07-23; calculated B, calculated GIC indices; 1 site | NA |
 | Liu et al 2016 | CHN; 2012-07-14; measured GIC, measured B; 3 sites | NA |
+| Matandirotya et al 2016 | RSA; 2013-07-06, 2015-03-17; DMM measured GIC, measured B, calculated GIC; 2 sites | NA |
 | Zhang et al 2015 | CHN; 2015-03-17; measured GIC, measured B, calculated B, calculated GIC; 2 sites | NA |
