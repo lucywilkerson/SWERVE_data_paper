@@ -71,3 +71,10 @@
 | Gannon et al 2017 | USA; 1989-03-13, 1991-03-24, 2003-10-28, 2016-04-12, 2016-05-07; measured B; calculated GIC; 13 sites | NA |
 | Rodger et al 2017 | NZL; 2001 - 2015; measured GIC, measured B, calculated GIC; 2 sites | NA |
 | Ingham et al 2017 | NZL; 2015-03-17, 2013-06-01, 2013-06-29, 2013-10-02, 2014-09-12; measured GIC, measured B, calculated GIC; 5 sites | NA |
+| Blake et al 2016 | IRL; 2016-03-06, 2015-12-20, 2015-03-17, 2003-10-29, 1989-03-13; measured GIC, measured B, calculated GIC; 1 site | NA |
+| Liu et al 2016 | CHN; 2015-03-17, 2015-06-22; measured GIC (railway), measured B; 1 site | NA |
+| Kelly et al 2016 | GBR/FRA; 1989-03-13, 2003-10-29, 1991-06-09; measured B, calculated GIC; 4 sites | NA |
+| Boteler et al 2016 | generalized; generalized event; calculated GIC; 1 site | NA |
+| Zhang et al 2016 | CHN; 2012-07-23; calculated B, calculated GIC indices; 1 site | NA |
+| Liu et al 2016 | CHN; 2012-07-14; measured GIC, measured B; 3 sites | NA |
+| Zhang et al 2015 | CHN; 2015-03-17; measured GIC, measured B, calculated B, calculated GIC; 2 sites | NA |
