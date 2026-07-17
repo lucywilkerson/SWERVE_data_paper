@@ -1,5 +1,8 @@
-| Author | Location | Events | Data types | Number of GIC sites | Link to GIC data (if open) |
+| Author | Location | Events | Data types | Number of GIC sites | GIC data access |
 | --- | --- | --- | --- | --- | --- |
+| TVA | USA | 2024-05-10, 2023-03-25 | measured GIC, measured B, calculated GIC | multiple sites | via request |
+| NERC | USA | 2013-present | measured GIC, measured B | multiple sites | via ERO portal |
+| SANSA | RSA | multi-event | DMM measured GIC | multiple sites | via request (Pierre) |
 | Feng et al 2026 | NZL | 2013-10-02, 2015-03-17, 2015-06-23, 2017-09-08 | measured GIC, measured reactive power | 2 sites | NA |
 | Wilkerson et al 2026 | USA | 2024-05-10 | measured GIC, measured B, calculated GIC, calculated B | 49 sites | https://zenodo.org/records/20090223 |
 | Belakhovsky et al 2026 | RUS | 2011 - 2022 | measured GIC, measured B | 5 sites | http://eurisgic.ru/ (plots only, numerical data exclusive to EURISGIC members) |
