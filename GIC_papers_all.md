@@ -8,7 +8,7 @@
 | Belakhovsky et al 2026 | RUS | 2011 - 2022 |  | ✓ | measured B | 5 sites | http://eurisgic.ru/ (plots only, numerical data exclusive to EURISGIC members) | No |
 | Wang et al 2026 | CHN | 2024-05-10 |  | ✓ | measured B, calculated GIC | 2 sites | NA | No |
 | Waters et al 2025 | AUS | 2024-05-10, 2024-10-10 |  | ✓ | measured B, calculated GIC index | 10 sites | NA | No |
-| Parry et al 2025 | CAN | 2023-04-24 |  | ✓ | measured B, calculated GIC | 2 sites | https://doi.org/10.5281/zenodo.16748607 | Pending |
+| Parry et al 2025 | CAN | 2023-04-24 |  | ✓ | measured B, calculated GIC | 2 sites | https://doi.org/10.5281/zenodo.16748607 | Yes |
 | Zhang et al 2025 | CHN | 2012-07-23, 2024-10-10 |  |  | measured B, calculated B, calculated GIC | 25 sites | NA | No |
 | Smith et al 2025 | NZL, UK | 2011 - 2016 |  | ✓ | measured B, calculated GIC | 24 sites | NA | No |
 | Rosenqvist et al 2025 | SWE | 1999 - 2024 |  | ✓ | measured B, calculated GIC | 1 site | NA | No |
@@ -19,7 +19,7 @@
 | Liu et al 2024 | global | 2024-04-23 |  | ✓ | measured B | 5 sites | NA (see NERC, Cordell et al 2024, FMI, NZL) | Pending |
 | Pratscher et al 2024 | NZL | 2015-03-17, 2017-09-07 |  | ✓ | measured B, calculated GIC | 4 sites | NA | No |
 | Waghule et al 2024 | FIN | 2013-03-17 |  |  | measured GIC (pipeline), measured B | 1 site | https://space.fmi.fi/gic/man_ascii/ (FMI) | Pending |
-| Parry et al 2024 | CAN | 2021-10-12 | ✓ | ✓ | measured B | 2 sites | https://doi.org/10.5281/zenodo.11188122 | Yes |
+| Parry et al 2024 | CAN | 2021-10-12 | ✓ | ✓ | measured B | 1 site | https://doi.org/10.5281/zenodo.11188122 | Pending |
 | Hubert et al 2024 | GBR | 2018 - 2021 | ✓ |  | calculated GIC | 12 sites | https://www.bgs.ac.uk/services/ngdc/ | Pending |
 | Smith et al 2024 | NZL | 2001 - 2020 |  | ✓ | measured B | 22 sites | NA | No |
 | Andreyev et al 2023 | KAZ | 2011-09-26, 2015-06-22, 2016-10-24, 2021-05-12 |  |  | calculated GIC, measured B | 18 sites | NA | No |
