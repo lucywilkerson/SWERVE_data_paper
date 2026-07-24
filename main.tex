@@ -4,6 +4,7 @@
 \usepackage{lineno}
 \usepackage[inline]{trackchanges} %for better track changes. finalnew option will compile document with changes incorporated.
 \usepackage{soul}
+\usepackage{amssymb} %for checkmarks in SI table
 \linenumbers
 %%%%%%%
 % As of 2018 we recommend use of the TrackChanges package to mark revisions.
@@ -192,6 +193,11 @@ The authors declare there are no conflicts of interest for this manuscript.
 Enter acknowledgments here. This section is to acknowledge funding, thank colleagues, enter any secondary affiliations, and so on.
 
 \section*{Supplemental Information}
+\begin{table}
+\input{table.tex}
+\caption{List of GIC papers and their data contents.}
+\label{table:gic_papers}
+\end{table}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
