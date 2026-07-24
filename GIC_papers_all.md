@@ -10,7 +10,7 @@
 | Waters et al 2025 | AUS | 2024-05-10, 2024-10-10 |  | ✓ | measured B, calculated GIC index | 10 sites | NA | No |
 | Parry et al 2025 | CAN | 2023-04-24 |  | ✓ | measured B, calculated GIC | 2 sites | https://doi.org/10.5281/zenodo.16748607 | Yes |
 | Zhang et al 2025 | CHN | 2012-07-23, 2024-10-10 |  |  | measured B, calculated B, calculated GIC | 25 sites | NA | No |
-| Smith et al 2025 | NZL, UK | 2011 - 2016 |  | ✓ | measured B, calculated GIC | 24 sites | NA | No |
+| Smith et al 2025 | NZL/UK | 2011 - 2016 |  | ✓ | measured B, calculated GIC | 24 sites | NA | No |
 | Rosenqvist et al 2025 | SWE | 1999 - 2024 |  | ✓ | measured B, calculated GIC | 1 site | NA | No |
 | Mac Manus et al 2025 | NZL | 2024-05-10 |  | ✓ | calculated GIC | 28 sites | NA | No |
 | Amaechi et al 2025 | global | 2023-03-23, 2023-04-23 |  |  | measured B, GIC indices | 15 sites | NA | No |
