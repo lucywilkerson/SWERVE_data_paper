@@ -1,18 +1,14 @@
 | Author | Location | Events | DMM GIC | Hall GIC | Other Data | Number of GIC sites | GIC data access | Reader in SWERVE? |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | SANSA | RSA | multi-event | ✓ |  |  | multiple sites | via request (Pierre) | Pending |
-| Marsal et al 2025 | ESP | 2021 - 2024 | ✓ |  | measured B, calculated GIC | 7 sites | https://doi.org/10.34810/data1741 | Pending |
-| Liu et al 2024 | global | 2024-04-23 |  | ✓ | measured B | 5 sites | NA (see NERC, Cordell et al 2024, FMI, NZL) | Pending |
-| Parry et al 2024 | CAN | 2021-10-12 | ✓ | ✓ | measured B | 1 site | https://doi.org/10.5281/zenodo.11188122 | Pending |
+| Marsal et al 2025 | ESP | 2021 - 2024 (12 events) | ✓ |  | measured B, calculated GIC | 7 sites | https://doi.org/10.34810/data1741 | Pending |
 | Hubert et al 2024 | GBR | 2018 - 2021 | ✓ |  | calculated GIC | 12 sites | https://www.bgs.ac.uk/services/ngdc/ | Pending |
-| Ngwira et al 2023 | USA/CAN | 2010 - 2021 |  | ✓ | measured B | 17 sites | NERC/EPRI | Pending |
 | Caraballo et al 2023 | MEX | Aug-Nov 2021 |  | ✓ | measured B, calculated GIC | 1 site | https://doi.org/10.17605/OSF.IO/AV9HT “GIC_assess_v2:SW Journal Article 2022/datasets” | Pending |
 | Alves Ribeiro et al 2023 | PRT | 2010 - 2017 |  | ✓ | measured B, calculated GIC | 1 site | https://doi.org/10.5281/zenodo.7443212 (GIC statistics), https://doi.org/10.5281/zenodo.7446370 (GIC measurements/estimates) | Pending |
 | Nahayo et al 2022 | RSA | 2003-10-29, 2015-03-17 |  | ✓ | LDi and LCi indices, measured B | 2 sites | https://zenodo.org/record/7019253 | Pending |
 | Bailey et al 2022 | AUT | 1996 - 2022 |  | ✓ | measured B, calculated GIC | 2 sites | https://doi.org/10.6084/m9.figshare.19102772.v1 (subset of data used) | Pending |
 | Kellerman et al 2021 | USA | 2018 - 2019 |  | ✓ | measured B, calculated GIC | 7 sites | NERC/EPRI, https://zenodo.org/record/4444068 | Pending |
 | Hughes et al 2021 | USA | 2018 |  | ✓ | measured B | 9 sites | NERC/EPRI, https://zenodo.org/record/4444068#.YUoLl9NKj0o | Pending |
-| Trichtchenko 2021 | USA | 2004-07-26, 2001-03-31 |  | ✓ | measured B | 1 site | EPRI/NERC | Pending |
 | Marsal et al 2021 | ESP | 2020 - 2021 | ✓ |  | measured B, calculated GIC | 4 sites | https://doi.org/10.20350/digitalCSIC/14004 | Pending |
 | Zhang et al 2020 | CHN | 2015-12-14, 2016-03-06, 2015-03-17 |  | ✓ | measured B, calculated GIC | 5 sites | https://doi.org/10.5281/zenodo.3714269 | Pending |
 | Caraballo et al 2019 | MEX | 2000-07-15, 2003-10-20, 2015-03-17, 2017-09-07 |  |  | measured B, calculated GIC | 115 sites | https://doi.org/10.17605/OSF.IO/AV9HT "GIC_assess_v2:SW Journal Article 2020/datasets" (calculated) | Pending |
@@ -24,6 +20,9 @@
 | NERC | USA | 2013-present |  | ✓ | measured B | multiple sites | via ERO portal | Yes |
 | Wilkerson et al 2026 | USA | 2024-05-10 |  | ✓ | measured B, calculated GIC, calculated B | 49 sites | https://zenodo.org/records/20090223 | Yes |
 | Parry et al 2025 | CAN | 2023-04-24 |  | ✓ | measured B, calculated GIC | 2 sites | https://doi.org/10.5281/zenodo.16748607 | Yes |
+| Parry et al 2024 | CAN | 2021-10-12 | ✓ | ✓ | measured B | 1 site | https://doi.org/10.5281/zenodo.11188122 | Yes |
+| Ngwira et al 2023 | USA/CAN | 2010 - 2021 |  | ✓ | measured B | 17 sites | NERC/EPRI | Yes |
+| Trichtchenko 2021 | USA | 2004-07-26, 2001-03-31 |  | ✓ | measured B | 1 site | EPRI/NERC | Yes |
 | Heyns et al 2020 | RSA/USA | 2003-10-31, 2015-06-23, 1989-03-15 |  | ✓ | measured B, calculated GIC | 2 sites | NA (TVA data shared via email) | Yes |
 | Feng et al 2026 | NZL | 2013-10-02, 2015-03-17, 2015-06-23, 2017-09-08 |  | ✓ | measured reactive power | 2 sites | NA | No |
 | Belakhovsky et al 2026 | RUS | 2011 - 2022 |  | ✓ | measured B | 5 sites | http://eurisgic.ru/ (plots only, numerical data exclusive to EURISGIC members) | No |
@@ -35,6 +34,7 @@
 | Mac Manus et al 2025 | NZL | 2024-05-10 |  | ✓ | calculated GIC | 28 sites | NA | No |
 | Amaechi et al 2025 | global | 2023-03-23, 2023-04-23 |  |  | measured B, GIC indices | 15 sites | NA | No |
 | Clilverd et al 2025 | NZL | 2024-05-10 |  | ✓ | measured B, VLF measurements | 1 site | NA | No |
+| Liu et al 2024 | global | 2024-04-23 |  | ✓ | measured B | 5 sites | NA (see NERC, Cordell et al 2024, FMI, NZL) | No |
 | Pratscher et al 2024 | NZL | 2015-03-17, 2017-09-07 |  | ✓ | measured B, calculated GIC | 4 sites | NA | No |
 | Waghule et al 2024 | FIN | 2013-03-17 |  |  | measured GIC (pipeline), measured B | 1 site | https://space.fmi.fi/gic/man_ascii/ (FMI) | No |
 | Smith et al 2024 | NZL | 2001 - 2020 |  | ✓ | measured B | 22 sites | NA | No |

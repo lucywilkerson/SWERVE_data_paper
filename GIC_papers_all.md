@@ -15,15 +15,15 @@
 | Mac Manus et al 2025 | NZL | 2024-05-10 |  | ✓ | calculated GIC | 28 sites | NA | No |
 | Amaechi et al 2025 | global | 2023-03-23, 2023-04-23 |  |  | measured B, GIC indices | 15 sites | NA | No |
 | Clilverd et al 2025 | NZL | 2024-05-10 |  | ✓ | measured B, VLF measurements | 1 site | NA | No |
-| Marsal et al 2025 | ESP | 2021 - 2024 | ✓ |  | measured B, calculated GIC | 7 sites | https://doi.org/10.34810/data1741 | Pending |
-| Liu et al 2024 | global | 2024-04-23 |  | ✓ | measured B | 5 sites | NA (see NERC, Cordell et al 2024, FMI, NZL) | Pending |
+| Marsal et al 2025 | ESP | 2021 - 2024 (12 events) | ✓ |  | measured B, calculated GIC | 7 sites | https://doi.org/10.34810/data1741 | Pending |
+| Liu et al 2024 | global | 2024-04-23 |  | ✓ | measured B | 5 sites | NA (see NERC, Cordell et al 2024, FMI, NZL) | No |
 | Pratscher et al 2024 | NZL | 2015-03-17, 2017-09-07 |  | ✓ | measured B, calculated GIC | 4 sites | NA | No |
 | Waghule et al 2024 | FIN | 2013-03-17 |  |  | measured GIC (pipeline), measured B | 1 site | https://space.fmi.fi/gic/man_ascii/ (FMI) | No |
-| Parry et al 2024 | CAN | 2021-10-12 | ✓ | ✓ | measured B | 1 site | https://doi.org/10.5281/zenodo.11188122 | Pending |
+| Parry et al 2024 | CAN | 2021-10-12 | ✓ | ✓ | measured B | 1 site | https://doi.org/10.5281/zenodo.11188122 | Yes |
 | Hubert et al 2024 | GBR | 2018 - 2021 | ✓ |  | calculated GIC | 12 sites | https://www.bgs.ac.uk/services/ngdc/ | Pending |
 | Smith et al 2024 | NZL | 2001 - 2020 |  | ✓ | measured B | 22 sites | NA | No |
 | Andreyev et al 2023 | KAZ | 2011-09-26, 2015-06-22, 2016-10-24, 2021-05-12 |  |  | calculated GIC, measured B | 18 sites | NA | No |
-| Ngwira et al 2023 | USA/CAN | 2010 - 2021 |  | ✓ | measured B | 17 sites | NERC/EPRI | Pending |
+| Ngwira et al 2023 | USA/CAN | 2010 - 2021 |  | ✓ | measured B | 17 sites | NERC/EPRI | Yes |
 | Caraballo et al 2023 | MEX | Aug-Nov 2021 |  | ✓ | measured B, calculated GIC | 1 site | https://doi.org/10.17605/OSF.IO/AV9HT “GIC_assess_v2:SW Journal Article 2022/datasets” | Pending |
 | Torta et al 2023 | ESP | 1997 - 2022 |  |  | measured B, calculated GIC | 76 sites | NA | No |
 | Alves Ribeiro et al 2023 | PRT | 2010 - 2017 |  | ✓ | measured B, calculated GIC | 1 site | https://doi.org/10.5281/zenodo.7443212 (GIC statistics), https://doi.org/10.5281/zenodo.7446370 (GIC measurements/estimates) | Pending |
@@ -42,7 +42,7 @@
 | Hughes et al 2021 | USA | 2018 |  | ✓ | measured B | 9 sites | NERC/EPRI, https://zenodo.org/record/4444068#.YUoLl9NKj0o | Pending |
 | Albert et al 2021 | AUT | 2017-09-08, 2021-05-12 |  | ✓ | measured B, calculated GIC | 7 sites | NA | No |
 | Torta et al 2021 | ESP | 2020-08-28 |  | ✓ | measured B, calculated GIC | 2 sites | NA | No |
-| Trichtchenko 2021 | USA | 2004-07-26, 2001-03-31 |  | ✓ | measured B | 1 site | EPRI/NERC | Pending |
+| Trichtchenko 2021 | USA | 2004-07-26, 2001-03-31 |  | ✓ | measured B | 1 site | EPRI/NERC | Yes |
 | Dimmock et al 2021 | FIN | 2017-09-07 |  |  | measured GIC (pipeline), measured B, calculated GIC, calculated B | 1 site | http://space.fmi.fi/gic/ (FMI) | No |
 | Wang et al 2021 | CHN | 2004-11-10 |  |  | calculated GIC | 34 sites | https://zenodo.org/record/4017356 (calculated) | No |
 | Marsal et al 2021 | ESP | 2020 - 2021 | ✓ |  | measured B, calculated GIC | 4 sites | https://doi.org/10.20350/digitalCSIC/14004 | Pending |
