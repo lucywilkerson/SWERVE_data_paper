@@ -15,7 +15,7 @@
 | Mac Manus et al 2025 | NZL | 2024-05-10 |  | ✓ | calculated GIC | 28 sites | NA | No |
 | Amaechi et al 2025 | global | 2023-03-23, 2023-04-23 |  |  | measured B, GIC indices | 15 sites | NA | No |
 | Clilverd et al 2025 | NZL | 2024-05-10 |  | ✓ | measured B, VLF measurements | 1 site | NA | No |
-| Marsal et al 2025 | ESP | 2021 - 2024 (12 events) | ✓ |  | measured B, calculated GIC | 7 sites | https://doi.org/10.34810/data1741 | Pending |
+| Marsal et al 2025 | ESP | 2021 - 2024 (12 events) | ✓ |  | measured B, calculated GIC | 7 sites | https://doi.org/10.34810/data1741 | Yes |
 | Liu et al 2024 | global | 2024-04-23 |  | ✓ | measured B | 5 sites | NA (see NERC, Cordell et al 2024, FMI, NZL) | No |
 | Pratscher et al 2024 | NZL | 2015-03-17, 2017-09-07 |  | ✓ | measured B, calculated GIC | 4 sites | NA | No |
 | Waghule et al 2024 | FIN | 2013-03-17 |  |  | measured GIC (pipeline), measured B | 1 site | https://space.fmi.fi/gic/man_ascii/ (FMI) | No |
@@ -42,7 +42,7 @@
 | Hughes et al 2021 | USA | 2018 |  | ✓ | measured B | 9 sites | NERC/EPRI, https://zenodo.org/record/4444068#.YUoLl9NKj0o | Pending |
 | Albert et al 2021 | AUT | 2017-09-08, 2021-05-12 |  | ✓ | measured B, calculated GIC | 7 sites | NA | No |
 | Torta et al 2021 | ESP | 2020-08-28 |  | ✓ | measured B, calculated GIC | 2 sites | NA | No |
-| Trichtchenko 2021 | USA | 2004-07-26, 2001-03-31 |  | ✓ | measured B | 1 site | EPRI/NERC | Yes |
+| Trichtchenko 2021 | USA | 2004-07-26, 2001-03-31 |  | ✓ | measured B | 1 site | EPRI (via request) | No |
 | Dimmock et al 2021 | FIN | 2017-09-07 |  |  | measured GIC (pipeline), measured B, calculated GIC, calculated B | 1 site | http://space.fmi.fi/gic/ (FMI) | No |
 | Wang et al 2021 | CHN | 2004-11-10 |  |  | calculated GIC | 34 sites | https://zenodo.org/record/4017356 (calculated) | No |
 | Marsal et al 2021 | ESP | 2020 - 2021 | ✓ |  | measured B, calculated GIC | 4 sites | https://doi.org/10.20350/digitalCSIC/14004 | Pending |
@@ -70,7 +70,7 @@
 | Torta et al 2017 | ESP | 2003-10-29, 2015-03-17 |  | ✓ | measured B, calculated GIC | 1 site | NA | No |
 | Barbosa et al 2017 | BRA/RSA/GBR/FIN | 90 storms |  |  | measured B, calculated GIC | 4 sites | NA | No |
 | Divett et al 2017 | NZL | generalized event |  |  | calculated GIC | 29 sites | NA | No |
-| Butala et al 2017 | USA | 2013-10-02, 2013-06-01, 2013-10-09 |  | ✓ | measured B, calculated GIC | 4 sites | https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2F2017SW001602&file=swe20522-sup-0002-supplementary.zip (daily plots only) | Pending |
+| Butala et al 2017 | USA | 2013-10-02, 2013-06-01, 2013-10-09 |  | ✓ | measured B, calculated GIC | 4 sites | see Supplementary Information (daily plots only) | No |
 | Gannon et al 2017 | USA | 1989-03-13, 1991-03-24, 2003-10-28, 2016-04-12, 2016-05-07 |  |  | measured B | calculated GIC | NA | No |
 | Rodger et al 2017 | NZL | 2001 - 2015 |  | ✓ | measured B, calculated GIC | 2 sites | NA | No |
 | Ingham et al 2017 | NZL | 2015-03-17, 2013-06-01, 2013-06-29, 2013-10-02, 2014-09-12 |  | ✓ | measured B, calculated GIC | 5 sites | NA | No |

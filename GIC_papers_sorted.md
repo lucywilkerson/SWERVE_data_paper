@@ -1,7 +1,6 @@
 | Author | Location | Events | DMM GIC | Hall GIC | Other Data | Number of GIC sites | GIC data access | Reader in SWERVE? |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | SANSA | RSA | multi-event | ✓ |  |  | multiple sites | via request (Pierre) | Pending |
-| Marsal et al 2025 | ESP | 2021 - 2024 (12 events) | ✓ |  | measured B, calculated GIC | 7 sites | https://doi.org/10.34810/data1741 | Pending |
 | Hubert et al 2024 | GBR | 2018 - 2021 | ✓ |  | calculated GIC | 12 sites | https://www.bgs.ac.uk/services/ngdc/ | Pending |
 | Caraballo et al 2023 | MEX | Aug-Nov 2021 |  | ✓ | measured B, calculated GIC | 1 site | https://doi.org/10.17605/OSF.IO/AV9HT “GIC_assess_v2:SW Journal Article 2022/datasets” | Pending |
 | Alves Ribeiro et al 2023 | PRT | 2010 - 2017 |  | ✓ | measured B, calculated GIC | 1 site | https://doi.org/10.5281/zenodo.7443212 (GIC statistics), https://doi.org/10.5281/zenodo.7446370 (GIC measurements/estimates) | Pending |
@@ -15,14 +14,13 @@
 | Espnosa et al 2019 | BRA | 2013-10-08, 2015-03-17, 2015-06-22 |  | ✓ | measured B, calculated GIC | 1 site | https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1029%2F2018SW002094&file=swe20818-sup-0002-2018SW002094-Table_SI-S01.xlsx | Pending |
 | Weigel et al 2019 | JPN | 2006 - 20007 |  | ✓ | measured B, calculated GIC | 1 site | NA (data from Watari shared via email) | Pending |
 | Blake et al 2018 | IRL | 2015-08-26, 2015-09-07, 2015-10-07, 2015-12-20, 2016-03-06 |  | ✓ | measured B, calculated GIC | 1 site | https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1029%2F2018SW001926&file=swe20785-sup-0002-2018SW001926-Data_Set_SI-S01.txt (2015-08), https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1029%2F2018SW001926&file=swe20785-sup-0003-2018SW001926-Data_Set_SI-S02.txt (2015-09), https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1029%2F2018SW001926&file=swe20785-sup-0004-2018SW001926-Data_Set_SI-S03.txt (2015-10), https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1029%2F2018SW001926&file=swe20785-sup-0005-2018SW001926-Data_Set_SI-S04.txt (2015-12), https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1029%2F2018SW001926&file=swe20785-sup-0006-2018SW001926-Data_Set_SI-S05.txt (2016-03) | Pending |
-| Butala et al 2017 | USA | 2013-10-02, 2013-06-01, 2013-10-09 |  | ✓ | measured B, calculated GIC | 4 sites | https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2F2017SW001602&file=swe20522-sup-0002-supplementary.zip (daily plots only) | Pending |
 | TVA | USA | 2024-05-10, 2023-03-25 |  | ✓ | measured B, calculated GIC | multiple sites | via request | Yes |
 | NERC | USA | 2013-present |  | ✓ | measured B | multiple sites | via ERO portal | Yes |
 | Wilkerson et al 2026 | USA | 2024-05-10 |  | ✓ | measured B, calculated GIC, calculated B | 49 sites | https://zenodo.org/records/20090223 | Yes |
 | Parry et al 2025 | CAN | 2023-04-24 |  | ✓ | measured B, calculated GIC | 2 sites | https://doi.org/10.5281/zenodo.16748607 | Yes |
+| Marsal et al 2025 | ESP | 2021 - 2024 (12 events) | ✓ |  | measured B, calculated GIC | 7 sites | https://doi.org/10.34810/data1741 | Yes |
 | Parry et al 2024 | CAN | 2021-10-12 | ✓ | ✓ | measured B | 1 site | https://doi.org/10.5281/zenodo.11188122 | Yes |
 | Ngwira et al 2023 | USA/CAN | 2010 - 2021 |  | ✓ | measured B | 17 sites | NERC/EPRI | Yes |
-| Trichtchenko 2021 | USA | 2004-07-26, 2001-03-31 |  | ✓ | measured B | 1 site | EPRI/NERC | Yes |
 | Heyns et al 2020 | RSA/USA | 2003-10-31, 2015-06-23, 1989-03-15 |  | ✓ | measured B, calculated GIC | 2 sites | NA (TVA data shared via email) | Yes |
 | Feng et al 2026 | NZL | 2013-10-02, 2015-03-17, 2015-06-23, 2017-09-08 |  | ✓ | measured reactive power | 2 sites | NA | No |
 | Belakhovsky et al 2026 | RUS | 2011 - 2022 |  | ✓ | measured B | 5 sites | http://eurisgic.ru/ (plots only, numerical data exclusive to EURISGIC members) | No |
@@ -51,6 +49,7 @@
 | Mac Manus et al 2022 | NZL | 2001 - 2020 |  | ✓ | measured B, calculated GIC | 73 sites | NA | No |
 | Albert et al 2021 | AUT | 2017-09-08, 2021-05-12 |  | ✓ | measured B, calculated GIC | 7 sites | NA | No |
 | Torta et al 2021 | ESP | 2020-08-28 |  | ✓ | measured B, calculated GIC | 2 sites | NA | No |
+| Trichtchenko 2021 | USA | 2004-07-26, 2001-03-31 |  | ✓ | measured B | 1 site | EPRI (via request) | No |
 | Dimmock et al 2021 | FIN | 2017-09-07 |  |  | measured GIC (pipeline), measured B, calculated GIC, calculated B | 1 site | http://space.fmi.fi/gic/ (FMI) | No |
 | Wang et al 2021 | CHN | 2004-11-10 |  |  | calculated GIC | 34 sites | https://zenodo.org/record/4017356 (calculated) | No |
 | Mukhtar et al 2020 | NZL | 2015-03-17, 2003-11-20 |  |  | measured B, calculated GIC | 30 sites | NA | No |
@@ -71,6 +70,7 @@
 | Torta et al 2017 | ESP | 2003-10-29, 2015-03-17 |  | ✓ | measured B, calculated GIC | 1 site | NA | No |
 | Barbosa et al 2017 | BRA/RSA/GBR/FIN | 90 storms |  |  | measured B, calculated GIC | 4 sites | NA | No |
 | Divett et al 2017 | NZL | generalized event |  |  | calculated GIC | 29 sites | NA | No |
+| Butala et al 2017 | USA | 2013-10-02, 2013-06-01, 2013-10-09 |  | ✓ | measured B, calculated GIC | 4 sites | https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2F2017SW001602&file=swe20522-sup-0002-supplementary.zip (daily plots only) | No |
 | Gannon et al 2017 | USA | 1989-03-13, 1991-03-24, 2003-10-28, 2016-04-12, 2016-05-07 |  |  | measured B | calculated GIC | NA | No |
 | Rodger et al 2017 | NZL | 2001 - 2015 |  | ✓ | measured B, calculated GIC | 2 sites | NA | No |
 | Ingham et al 2017 | NZL | 2015-03-17, 2013-06-01, 2013-06-29, 2013-10-02, 2014-09-12 |  | ✓ | measured B, calculated GIC | 5 sites | NA | No |
