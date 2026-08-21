@@ -1,0 +1,14 @@
+Data paper to do list:
+- finish writing readers for all data in table labeled "pending"
+- check all downloaded data has appropriate readme that clearly describes the source, any processing, etc.
+- make figures for paper
+- write in-text descriptions of figures in paper (Sections 2.4 and 3.3)
+- run main.py to create .pkl files/plots for all data
+- touch base with Trevor and Pierre about adding more to the measurement section
+- make event name a separate dict instead of a part of config.py
+- have resampling be an option rather than an automatic modification
+- revisit filter settings/tests, make sure filters are catching the right thing (especially spike filter and noise filter)
+- option to add high pass/low pass filter?
+- adapt filter to have error for duplicate time stamps? (right now automatic rejection)
+- write discussion/conclusion section
+- ensure code can handle multiple events
