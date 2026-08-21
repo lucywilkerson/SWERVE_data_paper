@@ -49,7 +49,7 @@
 | Mukhtar et al 2020 | NZL | 2015-03-17, 2003-11-20 |  |  | measured B, calculated GIC | 30 sites | NA | No |
 | Kelbert et al 2020 | USA | 2003-10-31 |  |  | measured B, calculated GIC | 4 sites | NA | No |
 | Divett et al 2020 | NZL | 2015-03-17 |  | ✓ | measured B, calculated GIC | 23 sites | NA | No |
-| Zhang et al 2020 | CHN | 2015-12-14, 2016-03-06, 2015-03-17 |  | ✓ | measured B, calculated GIC | 5  (1 available) | https://doi.org/10.5281/zenodo.3714269 | Yes |
+| Zhang et al 2020 | CHN | 2015-12-14, 2016-03-06, 2015-03-17 |  | ✓ | measured B, calculated GIC | 1 site | https://doi.org/10.5281/zenodo.3714269 | Yes |
 | Heyns et al 2020 | RSA/USA | 2003-10-31, 2015-06-23, 1989-03-15 |  | ✓ | measured B, calculated GIC | 2 sites | NA (TVA data shared via email) | Yes |
 | Alves Ribeiro et al 2020 | PRT | 2015 |  |  | measured B, calculated GIC | 20 sites | NA | No |
 | Caraballo et al 2019 | MEX | 2000-07-15, 2003-10-20, 2015-03-17, 2017-09-07 |  |  | measured B, calculated GIC | 115 sites | https://doi.org/10.17605/OSF.IO/AV9HT "GIC_assess_v2:SW Journal Article 2020/datasets" (calculated) | Pending |

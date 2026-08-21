@@ -20,7 +20,7 @@
 | Marsal et al 2025 | ESP | 2021 - 2024 (12 events) | ✓ |  | measured B, calculated GIC | 7 sites | https://doi.org/10.34810/data1741 | Yes |
 | Parry et al 2024 | CAN | 2021-10-12 | ✓ | ✓ | measured B | 1 site | https://doi.org/10.5281/zenodo.11188122 | Yes |
 | Ngwira et al 2023 | USA/CAN | 2010 - 2021 |  | ✓ | measured B | 17 sites | NERC/EPRI | Yes |
-| Zhang et al 2020 | CHN | 2015-12-14, 2016-03-06, 2015-03-17 |  | ✓ | measured B, calculated GIC | 5  (1 available) | https://doi.org/10.5281/zenodo.3714269 | Yes |
+| Zhang et al 2020 | CHN | 2015-12-14, 2016-03-06, 2015-03-17 |  | ✓ | measured B, calculated GIC | 1 site | https://doi.org/10.5281/zenodo.3714269 | Yes |
 | Heyns et al 2020 | RSA/USA | 2003-10-31, 2015-06-23, 1989-03-15 |  | ✓ | measured B, calculated GIC | 2 sites | NA (TVA data shared via email) | Yes |
 | Feng et al 2026 | NZL | 2013-10-02, 2015-03-17, 2015-06-23, 2017-09-08 |  | ✓ | measured reactive power | 2 sites | NA | No |
 | Belakhovsky et al 2026 | RUS | 2011 - 2022 |  | ✓ | measured B | 5 sites | http://eurisgic.ru/ (plots only, numerical data exclusive to EURISGIC members) | No |
