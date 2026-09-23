@@ -26,7 +26,7 @@
 | Ngwira et al 2023 | USA/CAN | 2010 - 2021 |  | ✓ | measured B | 17 sites | NERC/EPRI | Yes |
 | Caraballo et al 2023 | MEX | Aug-Nov 2021 |  | ✓ | measured B, calculated GIC | 1 site | https://doi.org/10.17605/OSF.IO/AV9HT “GIC_assess_v2:SW Journal Article 2022/datasets” | Pending |
 | Torta et al 2023 | ESP | 1997 - 2022 |  |  | measured B, calculated GIC | 76 sites | NA | No |
-| Alves Ribeiro et al 2023 | PRT | 2010 - 2017 |  | ✓ | measured B, calculated GIC | 1 site | https://doi.org/10.5281/zenodo.7443212 (GIC statistics), https://doi.org/10.5281/zenodo.7446370 (GIC measurements/estimates) | Pending |
+| Alves Ribeiro et al 2023 | PRT | 2010 - 2017 |  | ✓ | measured B, calculated GIC | 1 site | https://doi.org/10.5281/zenodo.7443212 (GIC statistics), https://doi.org/10.5281/zenodo.7446370 (GIC measurements/estimates) | Yes |
 | Espinosa et al 2023 | BRA | 2015-06-21, 2015-12-19 |  |  | measured B, calculated GIC | 23 sites | NA | No |
 | Ingham et al 2022 | NZL | 2017 - 2020 |  |  | measured GIC (pipeline), measured B | 10 sites | NA | No |
 | Mac Manus et al 2022 | NZL | 1989-03-13, 2003-10-29, 2017-09-07 |  |  | calculated GIC | 33 sites | NA | No |
