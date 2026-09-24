@@ -58,7 +58,7 @@
 | Marshall et al 2019 | AUS | 2013-03-17, 2013-10-02, 2015-06-23, 2017-09-08 |  | ✓ | measured B, calculated GIC | 8 sites | NA | No |
 | Khanal et al 2019 | FIN | 113 events (list in SI of paper) |  |  | measured GIC (pipeline), measured B | 1 site | http://space.fmi.fi/gic/?page=gasum_final (FMI), https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1029%2F2018SW001879&file=swe20813-sup-0002-2018SW001879-ds01.zip (datasets used in paper) | No |
 | Rosenqvist et al 2019 | SWE | 2015-07-05 |  | ✓ | measured B, calculated GIC | 1 site | NA | No |
-| Espnosa et al 2019 | BRA | 2013-10-08, 2015-03-17, 2015-06-22 |  | ✓ | measured B, calculated GIC | 1 site | https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1029%2F2018SW002094&file=swe20818-sup-0002-2018SW002094-Table_SI-S01.xlsx | Pending |
+| Espinosa et al 2019 | BRA | 2013-10-08, 2015-03-17, 2015-06-22 |  | ✓ | measured B, calculated GIC | 1 site | https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1029%2F2018SW002094&file=swe20818-sup-0002-2018SW002094-Table_SI-S01.xlsx | Yes |
 | Weigel et al 2019 | JPN | 2006 - 20007 |  | ✓ | measured B, calculated GIC | 1 site | NA (data from Watari shared via email) | Pending |
 | Tozzi et al 2018 | ITA | 1999-2015 |  |  | measured B, calculated GIC index | 2 sites | NA | No |
 | Nakamura et al 2018 | JPN | 2017-05-27 |  | ✓ | measured B, calculated GIC | 2 sites | NA | No |

@@ -8,7 +8,6 @@
 | Hughes et al 2021 | USA | 2018 |  | ✓ | measured B | 9 sites | NERC/EPRI, https://zenodo.org/record/4444068#.YUoLl9NKj0o | Pending |
 | Marsal et al 2021 | ESP | 2020 - 2021 | ✓ |  | measured B, calculated GIC | 4 sites | https://doi.org/10.20350/digitalCSIC/14004 | Pending |
 | Caraballo et al 2019 | MEX | 2000-07-15, 2003-10-20, 2015-03-17, 2017-09-07 |  |  | measured B, calculated GIC | 115 sites | https://doi.org/10.17605/OSF.IO/AV9HT "GIC_assess_v2:SW Journal Article 2020/datasets" (calculated) | Pending |
-| Espnosa et al 2019 | BRA | 2013-10-08, 2015-03-17, 2015-06-22 |  | ✓ | measured B, calculated GIC | 1 site | https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1029%2F2018SW002094&file=swe20818-sup-0002-2018SW002094-Table_SI-S01.xlsx | Pending |
 | Weigel et al 2019 | JPN | 2006 - 20007 |  | ✓ | measured B, calculated GIC | 1 site | NA (data from Watari shared via email) | Pending |
 | TVA | USA | 2024-05-10, 2023-03-25 |  | ✓ | measured B, calculated GIC | multiple sites | via request | Yes |
 | NERC | USA | 2013-present |  | ✓ | measured B | multiple sites | via ERO portal | Yes |
@@ -20,6 +19,7 @@
 | Alves Ribeiro et al 2023 | PRT | 2010 - 2017 |  | ✓ | measured B, calculated GIC | 1 site | https://doi.org/10.5281/zenodo.7443212 (GIC statistics), https://doi.org/10.5281/zenodo.7446370 (GIC measurements/estimates) | Yes |
 | Zhang et al 2020 | CHN | 2015-12-14, 2016-03-06, 2015-03-17 |  | ✓ | measured B, calculated GIC | 1 site | https://doi.org/10.5281/zenodo.3714269 | Yes |
 | Heyns et al 2020 | RSA/USA | 2003-10-31, 2015-06-23, 1989-03-15 |  | ✓ | measured B, calculated GIC | 2 sites | NA (TVA data shared via email) | Yes |
+| Espinosa et al 2019 | BRA | 2013-10-08, 2015-03-17, 2015-06-22 |  | ✓ | measured B, calculated GIC | 1 site | https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1029%2F2018SW002094&file=swe20818-sup-0002-2018SW002094-Table_SI-S01.xlsx | Yes |
 | Blake et al 2018 | IRL | 2015-08-26, 2015-09-07, 2015-10-07, 2015-12-20, 2016-03-06 |  | ✓ | measured B, calculated GIC | 1 site | https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1029%2F2018SW001926&file=swe20785-sup-0002-2018SW001926-Data_Set_SI-S01.txt (2015-08), https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1029%2F2018SW001926&file=swe20785-sup-0003-2018SW001926-Data_Set_SI-S02.txt (2015-09), https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1029%2F2018SW001926&file=swe20785-sup-0004-2018SW001926-Data_Set_SI-S03.txt (2015-10), https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1029%2F2018SW001926&file=swe20785-sup-0005-2018SW001926-Data_Set_SI-S04.txt (2015-12), https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1029%2F2018SW001926&file=swe20785-sup-0006-2018SW001926-Data_Set_SI-S05.txt (2016-03) | Yes |
 | SANSA | RSA | multi-event | ✓ |  |  | multiple sites | via request (Pierre) | No |
 | Feng et al 2026 | NZL | 2013-10-02, 2015-03-17, 2015-06-23, 2017-09-08 |  | ✓ | measured reactive power | 2 sites | NA | No |
