@@ -2,7 +2,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | TVA | USA | 2024-05-10, 2023-03-25 |  | ✓ | measured B, calculated GIC | multiple sites | via request | Yes |
 | NERC | USA | 2013-present |  | ✓ | measured B | multiple sites | via ERO portal | Yes |
-| SANSA | RSA | multi-event | ✓ |  |  | multiple sites | via request (Pierre) | Pending |
+| SANSA | RSA | multi-event | ✓ |  |  | multiple sites | via request (Pierre) | No |
 | Feng et al 2026 | NZL | 2013-10-02, 2015-03-17, 2015-06-23, 2017-09-08 |  | ✓ | measured reactive power | 2 sites | NA | No |
 | Wilkerson et al 2026 | USA | 2024-05-10 |  | ✓ | measured B, calculated GIC, calculated B | 49 sites | https://zenodo.org/records/20090223 | Yes |
 | Belakhovsky et al 2026 | RUS | 2011 - 2022 |  | ✓ | measured B | 5 sites | http://eurisgic.ru/ (plots only, numerical data exclusive to EURISGIC members) | No |
@@ -62,7 +62,7 @@
 | Weigel et al 2019 | JPN | 2006 - 20007 |  | ✓ | measured B, calculated GIC | 1 site | NA (data from Watari shared via email) | Pending |
 | Tozzi et al 2018 | ITA | 1999-2015 |  |  | measured B, calculated GIC index | 2 sites | NA | No |
 | Nakamura et al 2018 | JPN | 2017-05-27 |  | ✓ | measured B, calculated GIC | 2 sites | NA | No |
-| Blake et al 2018 | IRL | 2015-08-26, 2015-09-07, 2015-10-07, 2015-12-20, 2016-03-06 |  | ✓ | measured B, calculated GIC | 1 site | https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1029%2F2018SW001926&file=swe20785-sup-0002-2018SW001926-Data_Set_SI-S01.txt (2015-08), https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1029%2F2018SW001926&file=swe20785-sup-0003-2018SW001926-Data_Set_SI-S02.txt (2015-09), https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1029%2F2018SW001926&file=swe20785-sup-0004-2018SW001926-Data_Set_SI-S03.txt (2015-10), https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1029%2F2018SW001926&file=swe20785-sup-0005-2018SW001926-Data_Set_SI-S04.txt (2015-12), https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1029%2F2018SW001926&file=swe20785-sup-0006-2018SW001926-Data_Set_SI-S05.txt (2016-03) | Pending |
+| Blake et al 2018 | IRL | 2015-08-26, 2015-09-07, 2015-10-07, 2015-12-20, 2016-03-06 |  | ✓ | measured B, calculated GIC | 1 site | https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1029%2F2018SW001926&file=swe20785-sup-0002-2018SW001926-Data_Set_SI-S01.txt (2015-08), https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1029%2F2018SW001926&file=swe20785-sup-0003-2018SW001926-Data_Set_SI-S02.txt (2015-09), https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1029%2F2018SW001926&file=swe20785-sup-0004-2018SW001926-Data_Set_SI-S03.txt (2015-10), https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1029%2F2018SW001926&file=swe20785-sup-0005-2018SW001926-Data_Set_SI-S04.txt (2015-12), https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1029%2F2018SW001926&file=swe20785-sup-0006-2018SW001926-Data_Set_SI-S05.txt (2016-03) | Yes |
 | Bailey et al 2018 | AUT | 2017-04-23 |  | ✓ | measured B, calculated GIC | 3 sites | NA (paper has map of AUT system) | No |
 | Clilverd et al 2018 | NZL | 2017-09-07 |  | ✓ | measured B, calculated GIC | 1 site | NA | No |
 | Divett et al 2018 | NZL | generalized event |  |  | measured B, calculated GIC | 29 sites | NA | No |
