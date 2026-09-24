@@ -45,7 +45,7 @@
 | Trichtchenko 2021 | USA | 2004-07-26, 2001-03-31 |  | ✓ | measured B | 1 site | EPRI (via request) | No |
 | Dimmock et al 2021 | FIN | 2017-09-07 |  |  | measured GIC (pipeline), measured B, calculated GIC, calculated B | 1 site | http://space.fmi.fi/gic/ (FMI) | No |
 | Wang et al 2021 | CHN | 2004-11-10 |  |  | calculated GIC | 34 sites | https://zenodo.org/record/4017356 (calculated) | No |
-| Marsal et al 2021 | ESP | 2020 - 2021 | ✓ |  | measured B, calculated GIC | 4 sites | https://doi.org/10.20350/digitalCSIC/14004 | Pending |
+| Marsal et al 2021 | ESP | 2020 - 2021 | ✓ |  | measured B, calculated GIC | 4 sites | https://doi.org/10.20350/digitalCSIC/14004 | Yes |
 | Mukhtar et al 2020 | NZL | 2015-03-17, 2003-11-20 |  |  | measured B, calculated GIC | 30 sites | NA | No |
 | Kelbert et al 2020 | USA | 2003-10-31 |  |  | measured B, calculated GIC | 4 sites | NA | No |
 | Divett et al 2020 | NZL | 2015-03-17 |  | ✓ | measured B, calculated GIC | 23 sites | NA | No |
