@@ -2,10 +2,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Hubert et al 2024 | GBR | 2018 - 2021 | ✓ |  | calculated GIC | 12 sites | https://www.bgs.ac.uk/services/ngdc/ | Pending |
 | Caraballo et al 2023 | MEX | Aug-Nov 2021 |  | ✓ | measured B, calculated GIC | 1 site | https://doi.org/10.17605/OSF.IO/AV9HT “GIC_assess_v2:SW Journal Article 2022/datasets” | Pending |
-| Nahayo et al 2022 | RSA | 2003-10-29, 2015-03-17 |  | ✓ | LDi and LCi indices, measured B | 2 sites | https://zenodo.org/record/7019253 | Pending |
-| Bailey et al 2022 | AUT | 1996 - 2022 |  | ✓ | measured B, calculated GIC | 2 sites | https://doi.org/10.6084/m9.figshare.19102772.v1 (subset of data used) | Pending |
-| Kellerman et al 2021 | USA | 2018 - 2019 |  | ✓ | measured B, calculated GIC | 7 sites | NERC/EPRI, https://zenodo.org/record/4444068 | Pending |
-| Hughes et al 2021 | USA | 2018 |  | ✓ | measured B | 9 sites | NERC/EPRI, https://zenodo.org/record/4444068#.YUoLl9NKj0o | Pending |
+| Hughes et al 2021, Kellerman et al 2021 | USA | 2018 |  | ✓ | measured B | 9 sites | NERC/EPRI, https://zenodo.org/record/4444068#.YUoLl9NKj0o | Pending |
 | Caraballo et al 2019 | MEX | 2000-07-15, 2003-10-20, 2015-03-17, 2017-09-07 |  |  | measured B, calculated GIC | 115 sites | https://doi.org/10.17605/OSF.IO/AV9HT "GIC_assess_v2:SW Journal Article 2020/datasets" (calculated) | Pending |
 | Weigel et al 2019 | JPN | 2006 - 20007 |  | ✓ | measured B, calculated GIC | 1 site | NA (data from Watari shared via email) | Pending |
 | TVA | USA | 2024-05-10, 2023-03-25 |  | ✓ | measured B, calculated GIC | multiple sites | via request | Yes |
@@ -16,6 +13,8 @@
 | Parry et al 2024 | CAN | 2021-10-12 | ✓ | ✓ | measured B | 1 site | https://doi.org/10.5281/zenodo.11188122 | Yes |
 | Ngwira et al 2023 | USA/CAN | 2010 - 2021 |  | ✓ | measured B | 17 sites | NERC/EPRI | Yes |
 | Alves Ribeiro et al 2023 | PRT | 2010 - 2017 |  | ✓ | measured B, calculated GIC | 1 site | https://doi.org/10.5281/zenodo.7443212 (GIC statistics), https://doi.org/10.5281/zenodo.7446370 (GIC measurements/estimates) | Yes |
+| Nahayo et al 2022 | RSA | 2003-10-29, 2015-03-17 |  | ✓ | LDi and LCi indices, measured B | 2 sites | https://zenodo.org/record/7019253 | Yes |
+| Bailey et al 2022 | AUT | 1996 - 2022 |  | ✓ | measured B, calculated GIC | 2 sites | https://doi.org/10.6084/m9.figshare.19102772.v1 | Yes |
 | Marsal et al 2021 | ESP | 2020 - 2021 | ✓ |  | measured B, calculated GIC | 4 sites | https://doi.org/10.20350/digitalCSIC/14004 | Yes |
 | Zhang et al 2020 | CHN | 2015-12-14, 2016-03-06, 2015-03-17 |  | ✓ | measured B, calculated GIC | 1 site | https://doi.org/10.5281/zenodo.3714269 | Yes |
 | Heyns et al 2020 | RSA/USA | 2003-10-31, 2015-06-23, 1989-03-15 |  | ✓ | measured B, calculated GIC | 2 sites | NA (TVA data shared via email) | Yes |

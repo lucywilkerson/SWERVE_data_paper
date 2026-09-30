@@ -31,15 +31,14 @@
 | Ingham et al 2022 | NZL | 2017 - 2020 |  |  | measured GIC (pipeline), measured B | 10 sites | NA | No |
 | Mac Manus et al 2022 | NZL | 1989-03-13, 2003-10-29, 2017-09-07 |  |  | calculated GIC | 33 sites | NA | No |
 | Marshall et al 2022 | AUS | 1998 - 2008 |  |  | GIC indices, measured B | 7 sites | https://doi.org/10.5281/zenodo.7091161 | No |
-| Nahayo et al 2022 | RSA | 2003-10-29, 2015-03-17 |  | ✓ | LDi and LCi indices, measured B | 2 sites | https://zenodo.org/record/7019253 | Pending |
+| Nahayo et al 2022 | RSA | 2003-10-29, 2015-03-17 |  | ✓ | LDi and LCi indices, measured B | 2 sites | https://zenodo.org/record/7019253 | Yes |
 | Smith et al 2022 | NZL | 2001 - 2016 |  | ✓ | measured B | 1 site | NA | No |
 | Zhang et al 2022 | CHN | 2012-07-23 |  |  | calculated B, calculated GIC | 54 sites | https://doi.org/10.5281/zenodo.6099318 (code for calculation) | No |
-| Bailey et al 2022 | AUT | 1996 - 2022 |  | ✓ | measured B, calculated GIC | 2 sites | https://doi.org/10.6084/m9.figshare.19102772.v1 (subset of data used) | Pending |
+| Bailey et al 2022 | AUT | 1996 - 2022 |  | ✓ | measured B, calculated GIC | 2 sites | https://doi.org/10.6084/m9.figshare.19102772.v1 | Yes |
 | Hajra 2022 | FIN | 1999 - 2019 |  |  | measured GIC (pipeline), measured B | 1 site | https://space.fmi.fi/gic/index.php (FMI) | No |
 | Rosenqvist et al 2022 | SWE | 2018-05-24, 2000 - 2017 |  | ✓ | measured B, calculated GIC, calculated B | 1 site | NA | No |
 | Mac Manus et al 2022 | NZL | 2001 - 2020 |  | ✓ | measured B, calculated GIC | 73 sites | NA | No |
-| Kellerman et al 2021 | USA | 2018 - 2019 |  | ✓ | measured B, calculated GIC | 7 sites | NERC/EPRI, https://zenodo.org/record/4444068 | Pending |
-| Hughes et al 2021 | USA | 2018 |  | ✓ | measured B | 9 sites | NERC/EPRI, https://zenodo.org/record/4444068#.YUoLl9NKj0o | Pending |
+| Hughes et al 2021, Kellerman et al 2021 | USA | 2018 |  | ✓ | measured B | 9 sites | NERC/EPRI, https://zenodo.org/record/4444068#.YUoLl9NKj0o | Pending |
 | Albert et al 2021 | AUT | 2017-09-08, 2021-05-12 |  | ✓ | measured B, calculated GIC | 7 sites | NA | No |
 | Torta et al 2021 | ESP | 2020-08-28 |  | ✓ | measured B, calculated GIC | 2 sites | NA | No |
 | Trichtchenko 2021 | USA | 2004-07-26, 2001-03-31 |  | ✓ | measured B | 1 site | EPRI (via request) | No |
