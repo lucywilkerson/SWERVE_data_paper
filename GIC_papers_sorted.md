@@ -7,6 +7,8 @@
 | Weigel et al 2019 | JPN | 2006 - 20007 |  | ✓ | measured B, calculated GIC | 1 site | NA (data from Watari shared via email) | Pending |
 | TVA | USA | 2024-05-10, 2023-03-25 |  | ✓ | measured B, calculated GIC | multiple sites | via request | Yes |
 | NERC | USA | 2013-present |  | ✓ | measured B | multiple sites | via ERO portal | Yes |
+| Zhang et al 2026 | CHN | 2010 - 2021 |  | ✓ | solar wind, measured B, calculated GIC | 1 site | see Zhang et al 2020 | Yes |
+| Bor et al 2026 | USA | 2024-05-10 |  | ✓ | measured B, calculated GIC | 49 sites | see Wilkerson et al 2026 | Yes |
 | Wilkerson et al 2026 | USA | 2024-05-10 |  | ✓ | measured B, calculated GIC, calculated B | 49 sites | https://zenodo.org/records/20090223 | Yes |
 | Parry et al 2025 | CAN | 2023-04-24 |  | ✓ | measured B, calculated GIC | 2 sites | https://doi.org/10.5281/zenodo.16748607 | Yes |
 | Marsal et al 2025 | ESP | 2021 - 2024 (12 events) | ✓ |  | measured B, calculated GIC | 7 sites | https://doi.org/10.34810/data1741 | Yes |
@@ -21,6 +23,8 @@
 | Espinosa et al 2019 | BRA | 2013-10-08, 2015-03-17, 2015-06-22 |  | ✓ | measured B, calculated GIC | 1 site | https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1029%2F2018SW002094&file=swe20818-sup-0002-2018SW002094-Table_SI-S01.xlsx | Yes |
 | Blake et al 2018 | IRL | 2015-08-26, 2015-09-07, 2015-10-07, 2015-12-20, 2016-03-06 |  | ✓ | measured B, calculated GIC | 1 site | https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1029%2F2018SW001926&file=swe20785-sup-0002-2018SW001926-Data_Set_SI-S01.txt (2015-08), https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1029%2F2018SW001926&file=swe20785-sup-0003-2018SW001926-Data_Set_SI-S02.txt (2015-09), https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1029%2F2018SW001926&file=swe20785-sup-0004-2018SW001926-Data_Set_SI-S03.txt (2015-10), https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1029%2F2018SW001926&file=swe20785-sup-0005-2018SW001926-Data_Set_SI-S04.txt (2015-12), https://agupubs.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1029%2F2018SW001926&file=swe20785-sup-0006-2018SW001926-Data_Set_SI-S05.txt (2016-03) | Yes |
 | SANSA | RSA | multi-event | ✓ |  |  | multiple sites | via request (Pierre) | No |
+| Pratscher et al 2026 | NZL | 2024-05-10 |  | ✓ | measured B, calculated GIC | 16 sites | NA | No |
+| Parry et al 2026 | CAN | 2024-05-10 | ✓ | ✓ | solar wind, measured B, calculated GIC | 2 sites | NA | No |
 | Feng et al 2026 | NZL | 2013-10-02, 2015-03-17, 2015-06-23, 2017-09-08 |  | ✓ | measured reactive power | 2 sites | NA | No |
 | Belakhovsky et al 2026 | RUS | 2011 - 2022 |  | ✓ | measured B | 5 sites | http://eurisgic.ru/ (plots only, numerical data exclusive to EURISGIC members) | No |
 | Wang et al 2026 | CHN | 2024-05-10 |  | ✓ | measured B, calculated GIC | 2 sites | NA | No |

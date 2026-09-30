@@ -3,6 +3,10 @@
 | TVA | USA | 2024-05-10, 2023-03-25 |  | ✓ | measured B, calculated GIC | multiple sites | via request | Yes |
 | NERC | USA | 2013-present |  | ✓ | measured B | multiple sites | via ERO portal | Yes |
 | SANSA | RSA | multi-event | ✓ |  |  | multiple sites | via request (Pierre) | No |
+| Zhang et al 2026 | CHN | 2010 - 2021 |  | ✓ | solar wind, measured B, calculated GIC | 1 site | see Zhang et al 2020 | Yes |
+| Bor et al 2026 | USA | 2024-05-10 |  | ✓ | measured B, calculated GIC | 49 sites | see Wilkerson et al 2026 | Yes |
+| Pratscher et al 2026 | NZL | 2024-05-10 |  | ✓ | measured B, calculated GIC | 16 sites | NA | No |
+| Parry et al 2026 | CAN | 2024-05-10 | ✓ | ✓ | solar wind, measured B, calculated GIC | 2 sites | NA | No |
 | Feng et al 2026 | NZL | 2013-10-02, 2015-03-17, 2015-06-23, 2017-09-08 |  | ✓ | measured reactive power | 2 sites | NA | No |
 | Wilkerson et al 2026 | USA | 2024-05-10 |  | ✓ | measured B, calculated GIC, calculated B | 49 sites | https://zenodo.org/records/20090223 | Yes |
 | Belakhovsky et al 2026 | RUS | 2011 - 2022 |  | ✓ | measured B | 5 sites | http://eurisgic.ru/ (plots only, numerical data exclusive to EURISGIC members) | No |
