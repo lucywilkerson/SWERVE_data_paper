@@ -122,14 +122,17 @@ Other GIC data was compiled from open-access publications. These data span GIC m
 
 
 \subsection{Data Content}
-The data collected from NERC includes GIC monitor and ground magnetometer data at NERC sites for 40 storms over North America. The selected storms include all storms through the end of March 2026 listed on NERC ERO portal. All storms after March 2026 are not due to be reported to NERC as of the time of this publication.
-GMD data from both GIC monitors and ground magnetometers collected during a period from April 1 to March 31 is reported to NERC annually by June 30 \cite{NERC2026_reporting}; as such, released datasets from GMDs within the past year may not be complete and are not included in this paper.
+The data collected from NERC includes GIC monitor and ground magnetometer data at NERC sites for 40 storms over North America. The selected storms include all storms through the end of March 2026 listed on NERC ERO portal. 
+GMD data from both Hall GIC monitors and ground magnetometers collected during a period from April 1 to March 31 is reported to NERC annually by June 30 \cite{NERC2026_reporting}; as such, released datasets from GMDs after March 2026 may not be complete and are not included in this paper since they are not due to be reported to NERC as of the time of this publication.
 Each GIC site has a known geographic latitude, geographic longitude, installation type, and connection. For consistency, sites with connections listed as ``neutral of single-phase transformer" had all GIC values multiplied by a factor of three to match the scaling of the rest of the monitors, which were either listed as ``Common neutral of a 3-phase transformer" or ``Common neutral of three (3) single-phase transformers".
 Similarly, each magnetometer site has a known geographic latitude, geographic longitude, and orientation (either geographic or geomagnetic).
 
-The data collected from open-access publications varies in structure and information about the monitor system included in the metadata.
+The data collected from open-access publications varies in structure and information about the monitor system included in the metadata. When possible, the geographic latitude and longitude of each GIC measurement site was extracted from either the in-paper description of the measurement site or the site metadata. If neither of these sources contained the site's geographic location, then the geographic latitude and longitude were estimated using the site name, GPS imagery, and, if provided in the paper, the system map. Observed GIC data from these sources include a combination of DMM and Hall probe measurements. Additionally, papers that include ground magnetometer data or calculated GIC values in addition to observed GIC had this additional data added to SWERVE for completeness.
 
 %Include table of storm, \#GIC, \#Mag, maybe some solar wind data to indicate intensity?
+%Include figure with sources on y-axis and time on x-axis. Plot data availability.
+
+Additionally, ground magnetometer data from INTERMAG can be included for any input event via HAPI.
 
 \subsection{Data Samples}
 Show sample GIC data, stack plots, etc. and discuss
@@ -138,9 +141,6 @@ Show sample GIC data, stack plots, etc. and discuss
 %Describe metadata tables
 
 \section{GIC Timeseries Correction and Selection}
-
-
-% section on cleaning?? offset, spike removal etc.
 
 \subsection{Correction Filters}
 
