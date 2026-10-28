@@ -1,14 +1,13 @@
 Data paper to do list:
-- finish writing readers for all data in table labeled "pending"
+- finish writing readers for all data in table labeled "pending" (just waiting on longer datasets)
 - run main.py to create .pkl files/plots for all data as it's read
 - check all downloaded data has appropriate readme that clearly describes the source, any processing, etc.
+- ensure year-long datasets are being read efficiently and properly
 - update write_info to include all sources/data types available
 - make figures for paper
 - visual representation of what events have data
 - write in-text descriptions of figures in paper (Sections 2.4 and 3.3)
 - touch base with Trevor and Pierre about adding more to the measurement section
-- make event name a separate dict instead of a part of config.py
-- adapt to handle multiple input events
 - have resampling be an option rather than an automatic modification
 - revisit filter settings/tests, make sure filters are catching the right thing (especially spike filter and noise filter)
 - option to add high pass/low pass filter?
