@@ -118,8 +118,9 @@ NERC is an international regulatory body for the United States, Canada, and Mexi
 NERC, under its transmission planning standards, has published requirements for GMD response, which are dynamic and evolve along with understanding of GMD impacts on electrical power networks (\citeA{NERC2020}; \citeA{NERC2024}).
 The Federal Energy Regulatory Commission (FERC) Order No. 830 mandates NERC to collect GIC monitor and magnetometer data and to make such data publicly available in order to support research and analysis of GMD risk \cite{FERC2016}. As such, the NERC Electric Reliability Organization (ERO; \citeA{NERC2026_ERO}) data portal contains reported GIC monitor and ground magnetometer data from various power grid operators across North America for all GMDs with Kp $\geq7$ since May 2013 \cite{NERC2026_reporting}.
 
-Other GIC data was compiled from open-access publications. These data span GIC measurement sites across the globe for a variety of GMD events and provide varying degrees of information during the given GMD. Of these open-access published datasets, three were categorized as either ``annual", having continuous years worth of data including quiet times, and thirteen were ``event-partitioned", having data only during defined GMD events. [INCLUDE TABLE W ALL CITATIONS IN APPENDIX]
-
+Other GIC data was compiled from open-access publications. These data span GIC measurement sites across the globe for a myriad of GMD events and provide varying degrees of information during the given GMD. 
+Table~\ref{} contains information on each of these sources, including type of data available and the date ranges contained in each dataset.
+Of these open-access published datasets, three were categorized as either ``annual", having continuous years worth of data including quiet times, and thirteen were ``event-partitioned", having data only during defined GMD events. Figure~\ref{fig:availability} shows the time coverage of each of the sources compiled in SWERVE, including NERC. While the earliest source includes data from 2003, a majority of the sources contain data for Solar Cycles 24 and 25. [INCLUDE TABLE W ALL CITATIONS IN APPENDIX]
 
 \subsection{Data Content}
 The data collected from NERC includes GIC monitor and ground magnetometer data at NERC sites for 40 storms over North America. The selected storms include all storms through the end of March 2026 listed on NERC ERO portal. 
@@ -133,6 +134,15 @@ The data collected from open-access publications varies in structure and informa
 %Include figure with sources on y-axis and time on x-axis. Plot data availability.
 
 Additionally, ground magnetometer data from INTERMAG can be included for any input event via HAPI.
+
+\clearpage
+
+\begin{figure} [h]
+    \centering
+    \includegraphics[width=1.0\textwidth]{availability_plot.pdf}
+    \caption{Visualization of data sources included in SWERVE and their timeseries coverage. The March 2015 ``St. Partick's Day" storm and the May 2024 ``Gannon" storm are marked with a green and magenta dashed line, respectively. Note that for Bor, MAGE, OpenGGCM, SWMF, and SWUG only data from the ``Gannon" storm is included as none of these sources include GIC observations. Additionally, datasets from INTERMAGNET may be optionally included in SWERVE but are not included in this graphic due to their continuous nature.}
+    \label{fig:availability}
+\end{figure}
 
 \subsection{Data Samples}
 Show sample GIC data, stack plots, etc. and discuss
