@@ -120,7 +120,10 @@ The Federal Energy Regulatory Commission (FERC) Order No. 830 mandates NERC to c
 
 Other GIC data was compiled from open-access publications. These data span GIC measurement sites across the globe for a myriad of GMD events and provide varying degrees of information during the given GMD. 
 Table~\ref{} contains information on each of these sources, including type of data available and the date ranges contained in each dataset.
-Of these open-access published datasets, three were categorized as either ``annual", having continuous years worth of data including quiet times, and thirteen were ``event-partitioned", having data only during defined GMD events. Figure~\ref{fig:availability} shows the time coverage of each of the sources compiled in SWERVE, including NERC. While the earliest source includes data from 2003, a majority of the sources contain data for Solar Cycles 24 and 25. [INCLUDE TABLE W ALL CITATIONS IN APPENDIX]
+Of these open-access published datasets, three were categorized as either ``annual", having continuous years worth of data including quiet times, and thirteen were ``event-partitioned", having data only during defined GMD events. 
+Figure~\ref{fig:availability} shows the time coverage of each of the sources compiled in SWERVE, including NERC. While the earliest source includes data from 2003, a majority of the sources contain data for Solar Cycles 24 and 25. 
+Figure~\ref{fig:maps} shows the spatial coverage of all measurement sites with data available in SWERVE split by measurement type: Hall GIC (564 unique sites), DMM GIC (37 unique sites), and magnetometer B (189 unique sites). The Hall GIC observations are primarily concentrated in North America, as expected due to the NERC dataset accounting for 520 of the 564 direct GIC monitor sites. The DMM measurement sites are less numerous and mostly concentrated in western Europe. The ground magnetometers have the most scatter, primarily due to the spread of the INTERMAGNET dataset \cite{}. 
+[INCLUDE TABLE W ALL CITATIONS IN APPENDIX]
 
 \subsection{Data Content}
 The data collected from NERC includes GIC monitor and ground magnetometer data at NERC sites for 40 storms over North America. The selected storms include all storms through the end of March 2026 listed on NERC ERO portal. 
@@ -142,6 +145,15 @@ Additionally, ground magnetometer data from INTERMAG can be included for any inp
     \includegraphics[width=1.0\textwidth]{availability_plot.pdf}
     \caption{Visualization of data sources included in SWERVE and their timeseries coverage. The March 2015 ``St. Partick's Day" storm and the May 2024 ``Gannon" storm are marked with a green and magenta dashed line, respectively. Note that for Bor, MAGE, OpenGGCM, SWMF, and SWUG only data from the ``Gannon" storm is included as none of these sources include GIC observations. Note that data windows shorter than 10 days have been padded to be 10 days for visibility.}
     \label{fig:availability}
+\end{figure}
+
+\clearpage
+
+\begin{figure} [h]
+    \centering
+    \includegraphics[width=0.73\textwidth]{measured_locations_stack.pdf}
+    \caption{Maps of all site locations for measured data from a) 564 Hall GIC probes, b) 37 DMM magnetometers, and c) 189 ground magnetometers.}
+    \label{fig:maps}
 \end{figure}
 
 \clearpage
