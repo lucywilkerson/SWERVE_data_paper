@@ -122,7 +122,8 @@ Other GIC data was compiled from open-access publications. These data span GIC m
 Table~\ref{} contains information on each of these sources, including type of data available and the date ranges contained in each dataset.
 Of these open-access published datasets, three were categorized as either ``annual", having continuous years worth of data including quiet times, and thirteen were ``event-partitioned", having data only during defined GMD events. 
 Figure~\ref{fig:availability} shows the time coverage of each of the sources compiled in SWERVE, including NERC. While the earliest source includes data from 2003, a majority of the sources contain data for Solar Cycles 24 and 25. 
-Figure~\ref{fig:maps} shows the spatial coverage of all measurement sites with data available in SWERVE split by measurement type: Hall GIC (564 unique sites), DMM GIC (37 unique sites), and magnetometer B (189 unique sites). The Hall GIC observations are primarily concentrated in North America, as expected due to the NERC dataset accounting for 520 of the 564 direct GIC monitor sites. The DMM measurement sites are less numerous and mostly concentrated in western Europe. The ground magnetometers have the most scatter, primarily due to the spread of the INTERMAGNET dataset \cite{}. 
+Figure~\ref{fig:availability} also shows the spatial coverage of all measurement sites with data available in SWERVE split by measurement type: Hall GIC (564 unique sites), DMM GIC (37 unique sites), and magnetometer B (189 unique sites). The Hall GIC observations are primarily concentrated in North America, as expected due to the NERC dataset accounting for 520 of the 564 direct GIC monitor sites. The DMM measurement sites are less numerous and mostly concentrated in western Europe. The ground magnetometers have the most scatter, primarily due to the spread of the INTERMAGNET dataset \cite{}. 
+As ground magnetometer data are not the primary focus of this paper, only ground magnetometer data included in GIC data publications or available through the INTERMAGNET dataset are compiled in SWERVE.
 [INCLUDE TABLE W ALL CITATIONS IN APPENDIX]
 
 \subsection{Data Content}
@@ -136,25 +137,17 @@ The data collected from open-access publications varies in structure and informa
 %Include table of storm, \#GIC, \#Mag, maybe some solar wind data to indicate intensity?
 %Include figure with sources on y-axis and time on x-axis. Plot data availability.
 
-Additionally, ground magnetometer data from INTERMAG can be included for any input event via HAPI.
+Additionally, ground magnetometer data from INTERMAGNET can be included for any input event via HAPI.
 
-\clearpage
 
 \begin{figure} [h]
     \centering
+    \includegraphics[width=1.0\textwidth]{measured_locations.pdf}
     \includegraphics[width=1.0\textwidth]{availability_plot.pdf}
-    \caption{Visualization of data sources included in SWERVE and their timeseries coverage. The March 2015 ``St. Partick's Day" storm and the May 2024 ``Gannon" storm are marked with a green and magenta dashed line, respectively. Sources Bor, MAGE, OpenGGCM, SWMF, and SWUG only include data from the ``Gannon" storm as none of these sources include GIC observations. Dates between 2008 and 2013 have been omitted as no data other than INTERMAGNET data is in SWERVE between those dates. Note that data windows shorter than 10 days have been padded to be 10 days for visibility.}
+    \caption{Map of all site locations for measured data including 564 Hall GIC probes (GIC measured), 37 DMM magnetometers (DMM measured), and 189 ground magnetometers (B measured and INTERMAG) (top) and visualization of data sources included in SWERVE and their timeseries coverage (bottom). The March 2015 ``St. Partick's Day" storm and the May 2024 ``Gannon" storm are marked with a green and magenta dashed line, respectively. Sources Bor, MAGE, OpenGGCM, SWMF, and SWUG only include data from the ``Gannon" storm as none of these sources include GIC observations. Dates between 2008 and 2013 have been omitted as no data other than INTERMAGNET data is in SWERVE between those dates. Note that data windows shorter than 10 days have been padded to be 10 days for visibility.}
     \label{fig:availability}
 \end{figure}
 
-\clearpage
-
-\begin{figure} [h]
-    \centering
-    \includegraphics[width=1.0\textwidth]{measured_location.pdf}
-    \caption{Maps of all site locations for measured data from a) 564 Hall GIC probes, b) 37 DMM magnetometers, and c) 189 ground magnetometers.}
-    \label{fig:maps}
-\end{figure}
 
 \clearpage
 
