@@ -100,7 +100,7 @@ Canada \cite{Cordell2024}, the US \cite{Wilkerson2026}, Mexico \cite{Caraballo20
 While GIC observations are essential for better understanding, predicting, and mitigating the impacts of GICs on power grids \cite{MacManus2025}, these data are not always openly available due to grid security concerns and most diagnostic data being owned by network operators \cite{Hapgood2016}. Furthermore, open GIC data have not always been cleaned or processed to ensure they are of a usable quality.
 For example,  \citeA{Wilkerson2026} found that out of 396 GIC monitors with data openly available through the North American Electric Reliability Corporation (NERC), 355 had poor data quality for the May 2024 ``Gannon" storm. A further analysis of the NERC dataset by \citeA{Waghule2026} found that, for 29 GMD events occurring between 2015-2025, $\sim10\%$ of GIC sites had data of good quality for each event. As a result, ensuring the accessibility and usability of measured GIC data that is openly available is of interest to the research community.
 
-In this paper, we present the Space Weather Event Response Validation \& Evaluation (SWERVE) GMD dataset, which includes GIC monitor and supplemental ground magnetometer data during 16 major GMD events since 2000. These data are collected from public data releases and open-access publications globally. Additionally, we present several algorithms for GIC data correction and site selection that correct for baseline offset and large, nonphysical spikes, identify common issues with GIC data (e.g., data gaps, low signal), and flag GIC monitor sites with these issues for exclusion from analysis. 
+In this paper, we present the Space Weather Event Response Validation \& Evaluation (SWERVE) GMD dataset, which includes GIC monitor and supplemental ground magnetometer data during $\sim80$ GMD events since 2000. These data are collected from public data releases and open-access publications globally. Additionally, we present several algorithms for GIC data correction and site selection that correct for baseline offset and large, nonphysical spikes, identify common issues with GIC data (e.g., data gaps, low signal), and flag GIC monitor sites with these issues for exclusion from analysis. 
 
 \section{Data}
 
@@ -152,6 +152,11 @@ Additionally, ground magnetometer data from INTERMAGNET can be included for any 
 \clearpage
 
 \subsection{Data Samples}
+
+The DMM data available in SWERVE are the raw magnetometer data, labeled with either ``line" for the underline magnetometer or ``ref" for the reference background magnetometer. GIC has not been calculated from these sources as the network line orientation is needed for the calculation was not readily available for all sources.
+
+The quality of observed GIC data
+
 Show sample GIC data, stack plots, etc. and discuss
 
 %\subsection{Metadata}
