@@ -19,7 +19,7 @@
 | Mac Manus et al 2025 | NZL | 2024-05-10 |  | ✓ | calculated GIC | 28 sites | NA | No |
 | Amaechi et al 2025 | global | 2023-03-23, 2023-04-23 |  |  | measured B, GIC indices | 15 sites | NA | No |
 | Clilverd et al 2025 | NZL | 2024-05-10 |  | ✓ | measured B, VLF measurements | 1 site | NA | No |
-| Marsal et al 2025 | ESP | 2021 - 2024 (12 events) | ✓ |  | measured B, calculated GIC | 7 sites | https://doi.org/10.34810/data1741 | Yes |
+| Marsal et al 2025 | ESP | 2021 - 2024 | ✓ |  | measured B, calculated GIC | 7 sites | https://doi.org/10.34810/data1741 | Yes |
 | Caraballo et al 2025 | MEX | 2024-05-10 |  | ✓ | calculated GIC | 3 sites | https://osf.io/av9ht/overview | Yes |
 | Liu et al 2024 | global | 2024-04-23 |  | ✓ | measured B | 5 sites | NA (see NERC, Cordell et al 2024, FMI, NZL) | No |
 | Pratscher et al 2024 | NZL | 2015-03-17, 2017-09-07 |  | ✓ | measured B, calculated GIC | 4 sites | NA | No |

@@ -6,7 +6,7 @@
 | Bor et al 2026 | USA | 2024-05-10 |  | ✓ | measured B, calculated GIC | 49 sites | see Wilkerson et al 2026 | Yes |
 | Wilkerson et al 2026 | USA | 2024-05-10 |  | ✓ | measured B, calculated GIC, calculated B | 49 sites | https://zenodo.org/records/20090223 | Yes |
 | Parry et al 2025 | CAN | 2023-04-24 |  | ✓ | measured B, calculated GIC | 2 sites | https://doi.org/10.5281/zenodo.16748607 | Yes |
-| Marsal et al 2025 | ESP | 2021 - 2024 (12 events) | ✓ |  | measured B, calculated GIC | 7 sites | https://doi.org/10.34810/data1741 | Yes |
+| Marsal et al 2025 | ESP | 2021 - 2024 | ✓ |  | measured B, calculated GIC | 7 sites | https://doi.org/10.34810/data1741 | Yes |
 | Caraballo et al 2025 | MEX | 2024-05-10 |  | ✓ | calculated GIC | 3 sites | https://osf.io/av9ht/overview | Yes |
 | Parry et al 2024 | CAN | 2021-10-12 | ✓ | ✓ | measured B | 1 site | https://doi.org/10.5281/zenodo.11188122 | Yes |
 | Hubert et al 2024 | GBR | 2018 - 2021 | ✓ |  | calculated GIC | 12 sites | https://www.bgs.ac.uk/services/ngdc/ | Yes |
